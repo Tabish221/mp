@@ -1,0 +1,20 @@
+@import "var";
+@import "format";
+@import "globleClasses";
+@import "header";
+@import "footer";
+
+/* Main Banner CSS */
+.mainBanner {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	position: relative;
+	height: 100vh;
+}
+
+/* Custom CSS Styling */
+
+@import "responsive";
