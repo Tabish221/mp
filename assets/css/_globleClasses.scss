@@ -13,3 +13,66 @@
         line-height: 1.5;
       
 }
+
+
+
+.mn-groupBtn {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.mn-btn {
+    a {
+        border-radius: 10px;
+        background-color: $colorf2;
+        padding: 20px 35px;
+        font-size: 20px;
+        font-family: "Arial";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+
+        &:hover {
+            background-color: $color77;
+        }
+
+        &.greyBtn {
+            background-color: $color77;
+
+            &:hover {
+                background-color: $colorf2;
+            }
+        }
+    }
+}
+
+
+
+// PADDING
+.hd-pad {
+    padding-bottom: 70px;
+}
+
+.secPad {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fa-phone {
+    transform: rotate(90deg);
+}

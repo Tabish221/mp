@@ -58,12 +58,12 @@
 				<span></span>
 			</div>
 			<div class="row align-items-center">
-				<div class="col-md-4 text-left">
+				<div class="col-md-3">
 					<a href="./" class="logo">
 						<img src="assets/images/logo.png" alt="">
 					</a>
 				</div>
-				<div class="col-md-8 text-right">
+				<div class="col-md-9">
 					<div class="menuWrap">
 						<ul class="menu">
 							<li class="active"><a href="./">Home</a></li>

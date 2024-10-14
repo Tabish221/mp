@@ -14,7 +14,7 @@
    <section class="mainBanner" style="background-image: url(assets/images/banner/bg-banner.jpg);">
       <div class="dropBtn">
          <a href="#">
-            <div class="icon"><i class="fas fa-long-arrow-alt-down"></i></div>
+            <div class="icon"><img src="assets/images/icon/down-arrow-long.png" alt="Down Arrow Icon"></div>
          </a>
       </div>
 
@@ -28,7 +28,7 @@
       </div>
       <div class="container">
          <div class="mainBanner-cont">
-            <h1>Express Logistic Solutions</h1>
+            <h1>Express Logistic <span><em>Solutions</em></span></h1>
             <p>M&P helps you deliver on your commitments by ensuring we fulfill ours.</p>
             <div class="mainBanner-search">
                <input type="text" placeholder="Enter Tracking Number...">
@@ -37,23 +37,23 @@
                </button>
             </div>
 
-            <div class="mn-groupBtn mn-btn">
-               <a href="#">Learn More</a>
+            <div class="mn-groupBtn mn-btn justify-content-center">
+               <a href="#" class="greyBtn">Learn More</a>
                <a href="#">Get A Quote</a>
             </div>
          </div>
       </div>
    </section>
 
-   <section class="homeSection1">
+   <section class="homeSection1 secPad">
       <div class="container">
-         <div class="hsec1-hd">
+         <div class="hsec1-hd text-center hd-pad">
             <h6 class="fs-lg">Effortless Shipping Solutions For Seamless Deliveries</h6>
          </div>
 
          <div class="hsec1-main">
             <div class="row">
-               <div class="col-xl-4 col-md-6">
+               <div class="col-xl-3 col-md-6">
                   <a href="#" class="hsec1-card">
                      <div class="icon">
                         <img src="assets/images/icon/get_a_quote.png" alt="Get A Quote Icon">
@@ -62,7 +62,7 @@
                   </a>
                </div>
 
-               <div class="col-xl-4 col-md-6">
+               <div class="col-xl-3 col-md-6">
                   <a href="#" class="hsec1-card">
                      <div class="icon">
                         <img src="assets/images/icon/rate_calculator.png" alt="Rate Calculator Icon">
@@ -71,7 +71,7 @@
                   </a>
                </div>
 
-               <div class="col-xl-4 col-md-6">
+               <div class="col-xl-3 col-md-6">
                   <a href="#" class="hsec1-card">
                      <div class="icon">
                         <img src="assets/images/icon/launch_a_compalint.png" alt="Launch A Compalint Icon">
@@ -80,7 +80,7 @@
                   </a>
                </div>
 
-               <div class="col-xl-4 col-md-6">
+               <div class="col-xl-3 col-md-6">
                   <a href="#" class="hsec1-card">
                      <div class="icon">
                         <img src="assets/images/icon/loaction_us.png" alt="Locate Us Icon">
@@ -93,16 +93,16 @@
       </div>
    </section>
 
-   <section class="homeSection2">
+   <section class="homeSection2 secPad">
       <div class="container">
          <div class="hsec2-hd">
             <div class="row">
                <div class="col-md-12">
-                  <h6 class="fs-lg"></h6>
+                  <h6 class="fs-lg">On Time – Every Time.</h6>
                </div>
 
                <div class="col-md-7">
-                  <p class="fs-p1"></p>
+                  <p class="fs-p1">A curated selection of courier services that can be customized to perfectly match your requirements and ensure timely delivery to over 1600+ domestic and 200+ global locations.</p>
                </div>
 
                <div class="col-md-5">

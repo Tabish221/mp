@@ -13,8 +13,239 @@
 	align-items: center;
 	position: relative;
 	height: 100vh;
+
+	.dropBtn {
+		position: absolute;
+		bottom: -55px;
+		right: 0;
+		left: 0;
+		margin: auto;
+		width: fit-content;
+		height: fit-content;
+		a {
+			border-radius: 50%;
+			background-color: rgb(255, 255, 255);
+			width: 110px;
+			height: 110px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: $color77;
+			font-size: 90px;
+
+			&:hover {
+				transform: scale(1.05);
+			}
+		}
+	}
+
+	.mainBanner-socialLink {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 20px;
+		height: fit-content;
+		width: fit-content;
+		margin: auto;
+
+		ul {
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+
+			li {
+				a {
+					border-style: solid;
+					border-width: 1px;
+					border-color: $white;
+					border-radius: 50%;
+					background-color: transparent;
+					width: 50px;
+					height: 50px;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					color: $white;
+					font-size: 26px;
+
+					&:hover {
+						background-color: $colorf2;
+						border-color: $colorf2
+					}
+				}
+			}
+		}
+	}
+
+	.mainBanner-cont {
+		text-align: center;
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+
+		h1 {
+			font-size: 70px;
+			font-family: "Agrandir";
+			color: rgb(255, 255, 255);
+			font-weight: bold;
+			line-height: 1;
+			margin-bottom: -25px;
+			
+			span {
+				position: relative;
+
+				em {
+					position: relative;
+					z-index: 1;
+				}
+
+				&::before {
+					content: '';
+					width: 95%;
+					height: 100%;
+					background-image: url(../images/heading-line.png);
+					background-position: bottom;
+					background-repeat: no-repeat;
+					background-size: contain;
+					position: absolute;
+					bottom: 8px;
+					left: 0;
+					right: 0;
+					margin: auto;
+				}
+			}
+		}
+
+		p {
+			font-size: 28px;
+			font-family: "Arial";
+			color: rgb(254, 254, 254);
+			line-height: 1.2;
+		}
+
+		.mainBanner-search {
+			position: relative;
+			width: 70%;
+			margin: auto;
+
+			input {
+				border-radius: 10px;
+				background-color: rgb(255, 255, 255);
+				height: 66px;
+				width: 100%;
+				padding: 10px 80px 10px 25px;
+				font-size: 16px;
+				font-family: "Arial";
+				color: rgb(119, 119, 119);
+				line-height: 1.2;
+			}
+
+			button {
+				border-radius: 5px;
+				background-color: rgb(242, 101, 34);
+				width: 64px;
+				height: 58px;
+				margin: auto;
+				top: 0;
+				bottom: 0;
+				right: 5px;
+				position: absolute;
+
+				&:hover {
+					background-color: $color77;
+				}
+			}
+		}
+
+
+	}
 }
 
-/* Custom CSS Styling */
+.homeSection1 {
+	.hsec1-card {
+		border-width: 2px;
+		border-color: rgb(187, 189, 188);
+		border-style: solid;
+		border-radius: 20px;
+		width: 100%;
+		height: 100%;
+		padding: 45px 15px;
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		gap: 25px;
+		transition: all 0.4s ease-in-out;
 
+		&:hover {
+			background-color: $colorf2;
+			border-color: $colorf2;
+
+			h6 {
+				color: $white;
+			}
+
+			.icon {
+				img {
+					filter: brightness(10) contrast(10);
+				}
+			}
+		}
+
+		.icon {
+			height: 90px;
+			font-size: 0;
+			
+			img {
+				max-width: 100%;
+				max-height: 100%;
+				transition: all 0.4s ease-in-out;
+			}
+		}
+
+		h6 {
+			font-size: 24px;
+			font-family: "Agrandir";
+			color: rgb(3, 3, 3);
+			font-weight: bold;
+			line-height: 1.1;
+			transition: all 0.4s ease-in-out;		  
+		}
+	}
+}
+
+.homeSection2 {
+	background-image: url(../images/sec2/white-paper-texture-background.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive CSS */
 @import "responsive";
