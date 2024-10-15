@@ -95,8 +95,8 @@
 
    <section class="homeSection2 secPad">
       <div class="container">
-         <div class="hsec2-hd">
-            <div class="row">
+         <div class="hsec2-hd hd-pad">
+            <div class="row align-items-center">
                <div class="col-md-12">
                   <h6 class="fs-lg">On Time – Every Time.</h6>
                </div>
@@ -158,10 +158,10 @@
       </div>
    </section>
 
-   <section class="homeSection3">
+   <section class="homeSection3 secPad">
       <div class="container">
-         <div class="row">
-            <div class="col-md-6">
+         <div class="row align-items-center">
+            <div class="col-md-5">
                <div class="hsec3-img">
                   <img src="assets/images/sec3/img.png" alt="38 Years of Experience">
                   <span>
@@ -171,14 +171,14 @@
                </div>
             </div>
    
-            <div class="col-md-6">
+            <div class="col-md-7">
                <div class="hsec3-cont">
-                  <h6 class="fs-lg">Safe, Reliable & Express Courier <span>Solution</span></h6>
-                  <p class="fs-p">We pride ourselves on providing the best transport and shipping services globally through an integrated network of 750+ courier centers in Pakistan handling more than 2 Million shipments annually.</p>
+                  <h6 class="fs-lg">Safe, Reliable & Express Courier <span><em>Solution</em></span></h6>
+                  <p class="fs-p1 text-9b">We pride ourselves on providing the best transport and shipping services globally through an integrated network of 750+ courier centers in Pakistan handling more than 2 Million shipments annually.</p>
    
                   <div class="mn-groupBtn mn-btn">
                      <a href="#">Open An Account</a>
-                     <a href="#">Get A Quote</a>
+                     <a href="#" class="greyBtn">Get A Quote</a>
                   </div>
                </div>
             </div>
@@ -186,11 +186,11 @@
       </div>
    </section>
 
-   <section class="homeSection4">
+   <section class="homeSection4 secPad">
       <div class="container">
          <div class="row">
             <div class="col-md-6">
-               <div class="hsec4-img">
+               <div class="hsec4-img fs-0">
                   <img src="assets/images/sec4/img.png" alt="Our Loactions">
                </div>
             </div>
@@ -203,32 +203,32 @@
                      <div class="col-md-6">
                         <ul>
                            <li>
-                              <div class="icon"><span><img src="assets/images/sec4/location.png" alt="Loaction Icon"></span></div>
+                              <div class="icon"><img src="assets/images/sec4/location.png" alt="Loaction Icon"></div>
                               <span>Karachi</span>
                            </li>
 
                            <li>
-                              <div class="icon"><span><img src="assets/images/sec4/location.png" alt="Loaction Icon"></span></div>
+                              <div class="icon"><img src="assets/images/sec4/location.png" alt="Loaction Icon"></div>
                               <span>Hyderabad</span>
                            </li>
 
                            <li>
-                              <div class="icon"><span><img src="assets/images/sec4/location.png" alt="Loaction Icon"></span></div>
+                              <div class="icon"><img src="assets/images/sec4/location.png" alt="Loaction Icon"></div>
                               <span>Lahore</span>
                            </li>
 
                            <li>
-                              <div class="icon"><span><img src="assets/images/sec4/location.png" alt="Loaction Icon"></span></div>
+                              <div class="icon"><img src="assets/images/sec4/location.png" alt="Loaction Icon"></div>
                               <span>Peshawer</span>
                            </li>
 
                            <li>
-                              <div class="icon"><span><img src="assets/images/sec4/location.png" alt="Loaction Icon"></span></div>
+                              <div class="icon"><img src="assets/images/sec4/location.png" alt="Loaction Icon"></div>
                               <span>Quetta</span>
                            </li>
 
                            <li>
-                              <div class="icon"><span><img src="assets/images/sec4/location.png" alt="Loaction Icon"></span></div>
+                              <div class="icon"><img src="assets/images/sec4/location.png" alt="Loaction Icon"></div>
                               <span>Fausakabad</span>
                            </li>
                         </ul>
@@ -237,24 +237,24 @@
                      <div class="col-md-6">
                         <ul>
                            <li>
-                              <div class="icon"><span><img src="assets/images/sec4/location.png" alt="Loaction Icon"></span></div>
+                              <div class="icon"><img src="assets/images/sec4/location.png" alt="Loaction Icon"></div>
                               <span>Islamabad</span>
                            </li>
 
                            <li>
-                              <div class="icon"><span><img src="assets/images/sec4/location.png" alt="Loaction Icon"></span></div>
+                              <div class="icon"><img src="assets/images/sec4/location.png" alt="Loaction Icon"></div>
                               <span>Multan</span>
                            </li>
 
                            <li>
-                              <div class="icon"><span><img src="assets/images/sec4/location.png" alt="Loaction Icon"></span></div>
+                              <div class="icon"><img src="assets/images/sec4/location.png" alt="Loaction Icon"></div>
                               <span>Gujranwala</span>
                            </li>
 
                            <li>
                               <div class="mn-groupBtn mn-btn">
                                  <a href="#">Tariff Calculator</a>
-                                 <a href="#">Get A Quote</a>
+                                 <a href="#" class="greyBtn">Get A Quote</a>
                               </div>
                            </li>
                         </ul>

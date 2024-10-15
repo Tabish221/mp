@@ -1,17 +1,48 @@
+.fs-0 {
+    font-size: 0 !important;
+}
+
 .fs-lg {
-    font-size: 60px;
+    font-size: 54px;
     font-family: "Agrandir";
     color: #030303;
     font-weight: bold;
-    line-height: 1.16;      
+    line-height: 1.16; 
+    
+    span {
+        position: relative;
+
+        em {
+            position: relative;
+            z-index: 1;
+        }
+
+        &::before {
+            content: '';
+            width: 95%;
+            height: 100%;
+            background-image: url(../images/heading-line.png);
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            bottom: 15px;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+    }
 }
 
 .fs-p1 {
-        font-size: 20px;
-        font-family: "Arial";
-        color: rgb(3, 3, 3);
-        line-height: 1.5;
-      
+    font-size: 20px;
+    font-family: "Arial";
+    color: rgb(3, 3, 3);
+    line-height: 1.5;
+}
+
+.text-9b {
+    color: #9b9b9b !important;
 }
 
 
@@ -45,6 +76,40 @@
             }
         }
     }
+}
+
+
+.mn-searchBox {
+    position: relative;
+    width: 100%;
+    height: 66px;
+    
+    input {
+        border-radius: 10px;
+        height: 100%;
+        width: 100%;
+        background-color: $white;
+        padding: 10px 85px 10px 25px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    button {
+        border-radius: 5px;
+        background-color: $colorf2;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 4px;
+        width: 64px;
+        height: 58px;
+        margin: auto;
+
+        &:hover {
+            background-color: $color77;
+        }
+    }      
 }
 
 
