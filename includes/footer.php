@@ -1,7 +1,7 @@
 <footer>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-xl-3 col-md-4">
 				<div class="footer-left">
 					<div class="footer-logo">
 						<a href="./">
@@ -28,12 +28,12 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-8">
+			<div class="col-xl-9 col-md-8">
 				<div class="footer-right">
 					<div class="footerSearch">
 						<input type="text" placeholder="Enter your email">
 						<button>
-							<div class="icon"><img src="assets/images/icon/fast-delivery.png" alt="Fast Delivery"></div>
+							<div class="icon"><img src="assets/images/icon/paper-plane.png" alt="Paper Plane"></div>
 						</button>
 					</div>
 
@@ -69,8 +69,22 @@
 								<h6>Contact</h6>
 
 								<ol>
-									<li><a href="mailto:contact@mulphilog.com">contact@mulphilog.com</a></li>
-									<li><a href="tel:(021) 111-202-202">(021) 111-202-202</a></li>
+									<li>
+										<a href="mailto:contact@mulphilog.com">
+											<div class="icon">
+												<span><i class="fas fa-envelope"></i></span>
+											</div>
+											contact@mulphilog.com
+										</a>
+									</li>
+									<li>
+										<a href="tel:(021) 111-202-202">
+											<div class="icon">
+												<span><i class="fas fa-phone"></i></span>
+											</div>
+											(021) 111-202-202
+										</a>
+									</li>
 								</ol>
 							</div>
 						</div>
@@ -90,7 +104,7 @@
 				<p>© Copyrights 2024. M&P. All Rights Reserved (Design by Coderlogs)</p>
 			</div>
 
-			<div class="col-md-4">
+			<div class="col-md-4 text-end">
 				<div class="copyright-link">
 					<a href="#">Term & Condition</a>
 					<span>|</span>

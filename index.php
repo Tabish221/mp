@@ -266,9 +266,9 @@
       </div>
    </section>
 
-   <section class="clientSection">
+   <section class="clientSection secPad">
       <div class="container">
-         <div class="clientSec-hd">
+         <div class="clientSec-hd hd-pad text-center">
             <h6 class="fs-lg">Our Clients</h6>
          </div>
 
@@ -291,7 +291,7 @@
    </section>
 
    <section class="ctaSection">
-      <div class="container-fluid">
+      <div class="container-fluid p-0">
          <div class="ctaSec-main">
             <ul>
                <li>
@@ -334,9 +334,9 @@
       </div>
    </section>
 
-   <section class="blogSection">
+   <section class="blogSection secPad">
       <div class="container">
-         <div class="blogSec-hd">
+         <div class="blogSec-hd hd-pad text-center">
             <h6 class="fs-lg">Our Blog</h6>
          </div>
 
@@ -397,10 +397,10 @@
       </div>
    </section>
 
-   <section class="faqSection">
+   <section class="faqSection secPad">
       <div class="container">
-         <div class="faqSec-hd">
-            <div class="row">
+         <div class="faqSec-hd hd-pad">
+            <div class="row align-items-center">
                <div class="col-md-6">
                   <h6 class="fs-lg">Frequently Asked Question.</h6>
                </div>
@@ -418,19 +418,19 @@
                      <li class="active">
                         <div class="acc_title">
                            How can I track my shipments?
-                           <i class="fas fa-angle-right"></i>
+                           <i class="fas fa-plus"></i>
                         </div>
-                        <div class="acc_desc mn-hd">
-                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <div class="acc_desc">
+                           <p>Shipments can be tracked through the dedicated portal on the homepage by entering the tracking ID/Consignment Number.</p>
                         </div>
                      </li>
 
                      <li>
                         <div class="acc_title">
                            How quickly can M&P deliver my package?
-                           <i class="fas fa-angle-right"></i>
+                           <i class="fas fa-plus"></i>
                         </div>
-                        <div class="acc_desc mn-hd" style="display: none;">
+                        <div class="acc_desc" style="display: none;">
                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                         </div>
                      </li>
@@ -438,9 +438,9 @@
                      <li>
                         <div class="acc_title">
                            How can I get in touch with M&P for any queries or customer support?
-                           <i class="fas fa-angle-right"></i>
+                           <i class="fas fa-plus"></i>
                         </div>
-                        <div class="acc_desc mn-hd" style="display: none;">
+                        <div class="acc_desc" style="display: none;">
                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                         </div>
                      </li>
@@ -448,9 +448,9 @@
                      <li>
                         <div class="acc_title">
                            How can I get in touch with M&P through social media?
-                           <i class="fas fa-angle-right"></i>
+                           <i class="fas fa-plus"></i>
                         </div>
-                        <div class="acc_desc mn-hd" style="display: none;">
+                        <div class="acc_desc" style="display: none;">
                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                         </div>
                      </li>
@@ -459,12 +459,12 @@
 
                <div class="col-md-6">
                   <ul class="accordion">
-                     <li class="active">
+                     <li>
                         <div class="acc_title">
                            What are M&P operating hours?
-                           <i class="fas fa-angle-right"></i>
+                           <i class="fas fa-plus"></i>
                         </div>
-                        <div class="acc_desc mn-hd">
+                        <div class="acc_desc" style="display: none;">
                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                         </div>
                      </li>
@@ -472,9 +472,9 @@
                      <li>
                         <div class="acc_title">
                            Does M&P offer Same Day Service?
-                           <i class="fas fa-angle-right"></i>
+                           <i class="fas fa-plus"></i>
                         </div>
-                        <div class="acc_desc mn-hd" style="display: none;">
+                        <div class="acc_desc" style="display: none;">
                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                         </div>
                      </li>
@@ -482,9 +482,9 @@
                      <li>
                         <div class="acc_title">
                            Does M&P offer Holiday Service?
-                           <i class="fas fa-angle-right"></i>
+                           <i class="fas fa-plus"></i>
                         </div>
-                        <div class="acc_desc mn-hd" style="display: none;">
+                        <div class="acc_desc" style="display: none;">
                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                         </div>
                      </li>
@@ -492,9 +492,9 @@
                      <li>
                         <div class="acc_title">
                            How do I find out M&P rates?
-                           <i class="fas fa-angle-right"></i>
+                           <i class="fas fa-plus"></i>
                         </div>
-                        <div class="acc_desc mn-hd" style="display: none;">
+                        <div class="acc_desc" style="display: none;">
                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                         </div>
                      </li>
