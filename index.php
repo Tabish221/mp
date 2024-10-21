@@ -117,8 +117,8 @@
          </div>
 
          <div class="hsec2-main">
-            <div class="row">
-               <div class="col-md-3">
+            <div class="hsec2-slider">
+               <div class="">
                   <a href="#" class="hsec2-card">
                      <div class="img">
                         <img src="assets/images/sec2/img1.png" alt="Same Day Delivery">
@@ -127,7 +127,7 @@
                   </a>
                </div>
 
-               <div class="col-md-3">
+               <div class="">
                   <a href="#" class="hsec2-card">
                      <div class="img">
                         <img src="assets/images/sec2/img2.png" alt="My Box">
@@ -136,7 +136,7 @@
                   </a>
                </div>
 
-               <div class="col-md-3">
+               <div class="">
                   <a href="#" class="hsec2-card">
                      <div class="img">
                         <img src="assets/images/sec2/img3.png" alt="My Flyer">
@@ -145,7 +145,43 @@
                   </a>
                </div>
 
-               <div class="col-md-3">
+               <div class="">
+                  <a href="#" class="hsec2-card">
+                     <div class="img">
+                        <img src="assets/images/sec2/img4.png" alt="Overnight Delivery">
+                     </div>
+                     <h6>Overnight Delivery</h6>
+                  </a>
+               </div>
+
+               <div class="">
+                  <a href="#" class="hsec2-card">
+                     <div class="img">
+                        <img src="assets/images/sec2/img1.png" alt="Same Day Delivery">
+                     </div>
+                     <h6>Same Day Delivery</h6>
+                  </a>
+               </div>
+
+               <div class="">
+                  <a href="#" class="hsec2-card">
+                     <div class="img">
+                        <img src="assets/images/sec2/img2.png" alt="My Box">
+                     </div>
+                     <h6>My Box</h6>
+                  </a>
+               </div>
+
+               <div class="">
+                  <a href="#" class="hsec2-card">
+                     <div class="img">
+                        <img src="assets/images/sec2/img3.png" alt="My Flyer">
+                     </div>
+                     <h6>My Flyer</h6>
+                  </a>
+               </div>
+
+               <div class="">
                   <a href="#" class="hsec2-card">
                      <div class="img">
                         <img src="assets/images/sec2/img4.png" alt="Overnight Delivery">

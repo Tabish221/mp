@@ -151,28 +151,45 @@ ul.slick-dots li {
   height: 11px;
 }
 
-span.arrows {
+.slick-arrow {
   width: 40px;
   height: 40px;
   border: none;
   position: absolute;
-  top: 0px;
-  bottom: 0px;
   margin: auto;
   z-index: 2;
   cursor: pointer;
   line-height: 39px;
-  font-size: 12px;
+  font-size: 0;
   text-align: center;
-  font-weight: 300;
-  top: 0;
+  font-weight: 600;
+  top: 5px;
+  right: 0px;
   border-radius: 0;
-  background: #f7f7f7;
-  color: #696969;
+  background: transparent;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-span.arrows.next {
-  right: 1%;
+.slick-arrow::after {
+  content: "\f061";
+  display: block;
+  font-size: 18px;
+  font-family: "Font Awesome 5";
+}
+.slick-arrow.slick-prev {
+  right: 60px;
+}
+.slick-arrow.slick-prev::after {
+  content: "\f060";
+}
+.slick-arrow:hover {
+  border-color: transparent;
+  background: #f26522;
+  color: #fff;
 }
 
 textarea,
@@ -811,7 +828,8 @@ footer .footer-right .widget ol li a:hover {
   display: flex;
   align-items: center;
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
+  padding: 300px 0 150px;
 }
 .mainBanner .dropBtn {
   position: absolute;
@@ -994,6 +1012,27 @@ footer .footer-right .widget ol li a:hover {
 }
 .homeSection2 .hsec2-hd .row {
   row-gap: 20px;
+}
+.homeSection2 .hsec2-hd .fs-lg {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-wrap: nowrap;
+  gap: 30px;
+  width: 80%;
+}
+.homeSection2 .hsec2-hd .fs-lg::after {
+  content: "";
+  background: #000;
+  height: 2px;
+  display: flex;
+  width: 100%;
+}
+.homeSection2 .container {
+  position: relative;
+}
+.homeSection2 .hsec2-slider {
+  position: unset;
 }
 .homeSection2 .hsec2-main .row {
   row-gap: 24px;
@@ -1185,6 +1224,10 @@ footer .footer-right .widget ol li a:hover {
   color: rgb(255, 255, 255);
   font-weight: bold;
   line-height: 1;
+  text-wrap: nowrap;
+}
+.ctaSection .ctaSec-main ul li a:hover {
+  transform: scale(1.05);
 }
 .ctaSection .ctaSec-main ul li .icon {
   font-size: 50px;

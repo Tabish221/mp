@@ -68,6 +68,27 @@ $('.index-slider').slick({
     slidesToScroll: 1,
 });
 
+$('.hsec2-slider').slick({
+    dots: false,
+    arrows: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+});
+
+$('.ctaSec-main ul').slick({
+    dots: false,
+    arrows: false,
+    infinite: true,
+    speed: 8000,
+    slidesToShow: 1,
+    centerMode: true,
+    variableWidth: true,
+    autoplay: true,
+    autoplaySpeed: 1,
+});
+
 
 // Navigation Menu 
 $(window).on('load', function () {
