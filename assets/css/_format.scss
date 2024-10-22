@@ -37,8 +37,8 @@ ul.slick-dots{padding:50px 0 0;text-align:center;}
 ul.slick-dots li{margin:0 20px 0 0px;width:auto;display:inline-block;vertical-align:middle;overflow:hidden;padding:0px;border:none;}
 .slick-dots li button:before,
 .slick-dots li button:before{color:#FFF;opacity:1;font-size:20px;}
-.slick-dots li button{height:8px;width:8px;border-radius:50%;padding:0px;background:#d6d6d6;border:none;cursor:pointer;font-size:0px;padding:0px;-webkit-transition:all 0.4s ease-In-out;-moz-transition:all 0.4s ease-In-out;-o-transition:all 0.4s ease-In-out;transition:all 0.4s ease-In-out;box-sizing:border-box;}
-.slick-dots li.slick-active button{background:#f3c919;width:11px;height:11px;}
+.slick-dots li button{height:15px;width:15px;border-radius:50%;padding:0px;background:#fff;border:none;cursor:pointer;font-size:0px;padding:0px;-webkit-transition:all 0.4s ease-In-out;-moz-transition:all 0.4s ease-In-out;-o-transition:all 0.4s ease-In-out;transition:all 0.4s ease-In-out;box-sizing:border-box;}
+.slick-dots li.slick-active button{background:$colorf2;width:15px;height:15px;}
 .slick-arrow {
     width: 40px;
     height: 40px;

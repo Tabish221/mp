@@ -11,49 +11,126 @@
 <body>
    <?php include("includes/header.php"); ?>
 
-   <section class="mainBanner" style="background-image: url(assets/images/banner/bg-banner.jpg);">
-      <div class="dropBtn">
-         <a href="#">
-            <div class="icon"><img src="assets/images/icon/down-arrow-long.png" alt="Down Arrow Icon"></div>
-         </a>
+   <div class="index-slider">
+      <div>
+         <section class="mainBanner" style="background-image: url(assets/images/banner/bg-banner.jpg);">
+            <div class="dropBtn wow fadeInUp"  data-wow-delay="0.2s">
+               <a href="#">
+                  <div class="icon"><img src="assets/images/icon/down-arrow-long.png" alt="Down Arrow Icon"></div>
+               </a>
+            </div>
+      
+            <div class="mainBanner-socialLink">
+               <ul>
+                  <li class="wow fadeInLeft"  data-wow-delay="0.2s"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li class="wow fadeInLeft"  data-wow-delay="0.4s"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li class="wow fadeInLeft"  data-wow-delay="0.6s"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li class="wow fadeInLeft"  data-wow-delay="0.8s"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+               </ul>
+            </div>
+            <div class="container">
+               <div class="mainBanner-cont">
+                  <h1 class="wow fadeInDown"  data-wow-delay="0.2s">Express Logistic <span><em>Solutions</em></span></h1>
+                  <p class="wow fadeInDown"  data-wow-delay="0.4s">M&P helps you deliver on your commitments by ensuring we fulfill ours.</p>
+                  <div class="mainBanner-search wow fadeInDown"  data-wow-delay="0.6s">
+                     <input type="text" placeholder="Enter Tracking Number...">
+                     <button>
+                        <div class="icon"><img src="assets/images/icon/fast-delivery.png" alt="Fast Delivery Icon"></div>
+                     </button>
+                  </div>
+      
+                  <div class="mn-groupBtn mn-btn justify-content-center">
+                     <a href="#" class="greyBtn wow fadeInLeft"  data-wow-delay="0.2s">Learn More</a>
+                     <a href="#" class=" wow fadeInLeft"  data-wow-delay="0.4s">Get A Quote</a>
+                  </div>
+               </div>
+            </div>
+         </section>
       </div>
 
-      <div class="mainBanner-socialLink">
-         <ul>
-            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-         </ul>
-      </div>
-      <div class="container">
-         <div class="mainBanner-cont">
-            <h1>Express Logistic <span><em>Solutions</em></span></h1>
-            <p>M&P helps you deliver on your commitments by ensuring we fulfill ours.</p>
-            <div class="mainBanner-search">
-               <input type="text" placeholder="Enter Tracking Number...">
-               <button>
-                  <div class="icon"><img src="assets/images/icon/fast-delivery.png" alt="Fast Delivery Icon"></div>
-               </button>
+      <div>
+         <section class="mainBanner" style="background-image: url(assets/images/banner/bg-banner.jpg);">
+            <div class="dropBtn">
+               <a href="#">
+                  <div class="icon"><img src="assets/images/icon/down-arrow-long.png" alt="Down Arrow Icon"></div>
+               </a>
             </div>
+      
+            <div class="mainBanner-socialLink">
+               <ul>
+                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+               </ul>
+            </div>
+            <div class="container">
+               <div class="mainBanner-cont">
+                  <h1>Express Logistic <span><em>Solutions 2</em></span></h1>
+                  <p>M&P helps you deliver on your commitments by ensuring we fulfill ours.</p>
+                  <div class="mainBanner-search">
+                     <input type="text" placeholder="Enter Tracking Number...">
+                     <button>
+                        <div class="icon"><img src="assets/images/icon/fast-delivery.png" alt="Fast Delivery Icon"></div>
+                     </button>
+                  </div>
+      
+                  <div class="mn-groupBtn mn-btn justify-content-center">
+                     <a href="#" class="greyBtn">Learn More</a>
+                     <a href="#">Get A Quote</a>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
 
-            <div class="mn-groupBtn mn-btn justify-content-center">
-               <a href="#" class="greyBtn">Learn More</a>
-               <a href="#">Get A Quote</a>
+      <div>
+         <section class="mainBanner" style="background-image: url(assets/images/banner/bg-banner.jpg);">
+            <div class="dropBtn">
+               <a href="#">
+                  <div class="icon"><img src="assets/images/icon/down-arrow-long.png" alt="Down Arrow Icon"></div>
+               </a>
             </div>
-         </div>
+      
+            <div class="mainBanner-socialLink">
+               <ul>
+                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+               </ul>
+            </div>
+            <div class="container">
+               <div class="mainBanner-cont">
+                  <h1>Express Logistic <span><em>Solutions 3</em></span></h1>
+                  <p>M&P helps you deliver on your commitments by ensuring we fulfill ours.</p>
+                  <div class="mainBanner-search">
+                     <input type="text" placeholder="Enter Tracking Number...">
+                     <button>
+                        <div class="icon"><img src="assets/images/icon/fast-delivery.png" alt="Fast Delivery Icon"></div>
+                     </button>
+                  </div>
+      
+                  <div class="mn-groupBtn mn-btn justify-content-center">
+                     <a href="#" class="greyBtn">Learn More</a>
+                     <a href="#">Get A Quote</a>
+                  </div>
+               </div>
+            </div>
+         </section>
       </div>
-   </section>
+   </div>
+
 
    <section class="homeSection1 secPad">
       <div class="container">
-         <div class="hsec1-hd text-center hd-pad">
+         <div class="hsec1-hd text-center hd-pad wow fadeInDown"  data-wow-delay="0.4s">
             <h6 class="fs-lg">Effortless Shipping Solutions For Seamless Deliveries</h6>
          </div>
 
          <div class="hsec1-main">
             <div class="row">
-               <div class="col-xl-3 col-md-6">
+               <div class="col-xl-3 col-md-6 wow fadeInLeft"  data-wow-delay="0.2s">
                   <a href="#" class="hsec1-card">
                      <div class="icon">
                         <img src="assets/images/icon/get_a_quote.png" alt="Get A Quote Icon">
@@ -62,7 +139,7 @@
                   </a>
                </div>
 
-               <div class="col-xl-3 col-md-6">
+               <div class="col-xl-3 col-md-6 wow fadeInLeft"  data-wow-delay="0.4s">
                   <a href="#" class="hsec1-card">
                      <div class="icon">
                         <img src="assets/images/icon/rate_calculator.png" alt="Rate Calculator Icon">
@@ -71,7 +148,7 @@
                   </a>
                </div>
 
-               <div class="col-xl-3 col-md-6">
+               <div class="col-xl-3 col-md-6 wow fadeInLeft"  data-wow-delay="0.6s">
                   <a href="#" class="hsec1-card">
                      <div class="icon">
                         <img src="assets/images/icon/launch_a_compalint.png" alt="Launch A Compalint Icon">
@@ -80,7 +157,7 @@
                   </a>
                </div>
 
-               <div class="col-xl-3 col-md-6">
+               <div class="col-xl-3 col-md-6 wow fadeInLeft"  data-wow-delay="0.8s">
                   <a href="#" class="hsec1-card">
                      <div class="icon">
                         <img src="assets/images/icon/loaction_us.png" alt="Locate Us Icon">
@@ -97,15 +174,15 @@
       <div class="container">
          <div class="hsec2-hd hd-pad">
             <div class="row align-items-center">
-               <div class="col-md-12">
+               <div class="col-md-12 wow fadeInDown"  data-wow-delay="0.2s">
                   <h6 class="fs-lg">On Time – Every Time.</h6>
                </div>
 
-               <div class="col-md-7">
+               <div class="col-md-7 wow fadeInLeft"  data-wow-delay="0.3s">
                   <p class="fs-p1">A curated selection of courier services that can be customized to perfectly match your requirements and ensure timely delivery to over 1600+ domestic and 200+ global locations.</p>
                </div>
 
-               <div class="col-md-5">
+               <div class="col-md-5 wow fadeInRight"  data-wow-delay="0.4s">
                   <div class="mn-searchBox">
                      <input type="text" placeholder="Enter Tracking Number.....">
                      <button>
@@ -116,7 +193,7 @@
             </div>
          </div>
 
-         <div class="hsec2-main">
+         <div class="hsec2-main wow fadeInLeft"  data-wow-delay="0.4s">
             <div class="hsec2-slider">
                <div class="">
                   <a href="#" class="hsec2-card">
@@ -197,7 +274,7 @@
    <section class="homeSection3 secPad">
       <div class="container">
          <div class="row align-items-center">
-            <div class="col-md-5">
+            <div class="col-md-5 wow fadeInLeft"  data-wow-delay="0.4s">
                <div class="hsec3-img">
                   <img src="assets/images/sec3/img.png" alt="38 Years of Experience">
                   <span>
@@ -207,7 +284,7 @@
                </div>
             </div>
    
-            <div class="col-md-7">
+            <div class="col-md-7 wow fadeInRight"  data-wow-delay="0.6s">
                <div class="hsec3-cont">
                   <h6 class="fs-lg">Safe, Reliable & Express Courier <span><em>Solution</em></span></h6>
                   <p class="fs-p1 text-9b">We pride ourselves on providing the best transport and shipping services globally through an integrated network of 750+ courier centers in Pakistan handling more than 2 Million shipments annually.</p>
@@ -223,15 +300,15 @@
    </section>
 
    <section class="homeSection4 secPad">
-      <div class="container">
+      <div class="container-fluid pl-0">
          <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 wow fadeInLeft"  data-wow-delay="0.4s">
                <div class="hsec4-img fs-0">
                   <img src="assets/images/sec4/img.png" alt="Our Loactions">
                </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6 wow fadeInRight"  data-wow-delay="0.4s">
                <div class="hsec4-cont">
                   <h6 class="fs-lg">Our Locations</h6>
 
@@ -304,7 +381,7 @@
 
    <section class="clientSection secPad">
       <div class="container">
-         <div class="clientSec-hd hd-pad text-center">
+         <div class="clientSec-hd hd-pad text-center wow fadeInDown"  data-wow-delay="0.4s">
             <h6 class="fs-lg">Our Clients</h6>
          </div>
 
@@ -313,7 +390,7 @@
                <?php
                for ($i = 1; $i < 17; $i++) {
                ?>
-                  <div class="col-lg-3 col-md-6">
+                  <div class="col-lg-3 col-md-6 wow fadeInDown"  data-wow-delay="<?php echo $i*50 ?>ms">
                      <a href="#" class="cleintCard">
                         <img src="assets/images/sec5/img<?php echo $i ?>.png" alt="Client Logo">
                      </a>
@@ -328,7 +405,7 @@
 
    <section class="ctaSection">
       <div class="container-fluid p-0">
-         <div class="ctaSec-main">
+         <div class="ctaSec-main wow fadeInUp"  data-wow-delay="0.4s">
             <ul>
                <li>
                   <a href="#">Open An Account</a>
@@ -372,13 +449,13 @@
 
    <section class="blogSection secPad">
       <div class="container">
-         <div class="blogSec-hd hd-pad text-center">
+         <div class="blogSec-hd hd-pad text-center wow fadeInDown"  data-wow-delay="0.4s">
             <h6 class="fs-lg">Our Blog</h6>
          </div>
 
          <div class="blogSec-main">
             <div class="row">
-               <div class="col-md-4">
+               <div class="col-md-4 wow fadeInLeft"  data-wow-delay="0.4s">
                   <div class="blogSec-card">
                      <div class="img">
                         <img src="assets/images/sec7/img1.png" alt="Blog Image">
@@ -395,7 +472,7 @@
                   </div>
                </div>
 
-               <div class="col-md-4">
+               <div class="col-md-4 wow fadeInLeft"  data-wow-delay="0.6s">
                   <div class="blogSec-card">
                      <div class="img">
                         <img src="assets/images/sec7/img2.png" alt="Blog Image">
@@ -412,7 +489,7 @@
                   </div>
                </div>
 
-               <div class="col-md-4">
+               <div class="col-md-4 wow fadeInLeft"  data-wow-delay="0.8s">
                   <div class="blogSec-card">
                      <div class="img">
                         <img src="assets/images/sec7/img3.png" alt="Blog Image">
@@ -437,11 +514,11 @@
       <div class="container">
          <div class="faqSec-hd hd-pad">
             <div class="row align-items-center">
-               <div class="col-md-6">
+               <div class="col-md-6 wow fadeInLeft"  data-wow-delay="0.4s">
                   <h6 class="fs-lg">Frequently Asked Question.</h6>
                </div>
 
-               <div class="col-md-6">
+               <div class="col-md-6 wow fadeInRight"  data-wow-delay="0.6s">
                   <p class="fs-p1">Our services combine the merits of skilled personnel, innovative technological solutions, and decades of experience in integrated supply chain management to ensure that you receive the best experience possible.</p>
                </div>
             </div>
@@ -449,7 +526,7 @@
 
          <div class="faqSec-main">
             <div class="row">
-               <div class="col-md-6">
+               <div class="col-md-6 wow fadeInLeft"  data-wow-delay="0.5s">
                   <ul class="accordion">
                      <li class="active">
                         <div class="acc_title">
@@ -493,7 +570,7 @@
                   </ul>
                </div>
 
-               <div class="col-md-6">
+               <div class="col-md-6 wow fadeInRight"  data-wow-delay="0.7s">
                   <ul class="accordion">
                      <li>
                         <div class="acc_title">
@@ -552,10 +629,10 @@
          return `${halfGap}px`;
       }
 
-      var bannerContentDiv = $('.bannerCont');
-      bannerContentDiv.css('padding-left', halfContainerGap());
+      var bannerContentDiv = $('.hsec4-cont');
+      bannerContentDiv.css('padding-right', halfContainerGap());
       $(window).resize(function() {
-         bannerContentDiv.css('padding-left', halfContainerGap());
+         bannerContentDiv.css('padding-right', halfContainerGap());
       });
    </script>
 </body>

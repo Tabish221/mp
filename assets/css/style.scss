@@ -42,8 +42,8 @@
 
 	.mainBanner-socialLink {
 		position: absolute;
-		top: 0;
-		bottom: 0;
+		top: auto;
+		bottom: 20%;
 		left: 20px;
 		height: fit-content;
 		width: fit-content;
@@ -161,6 +161,40 @@
 	}
 }
 
+.index-slider {
+	overflow: visible;
+
+	.slick-list {
+		overflow: visible;
+	}
+
+	ul.slick-dots {
+		padding: 0px 0 0;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		position: absolute;
+		top: auto;
+		bottom: 40%;
+		right: 10px;
+	}
+
+	.slick-counter {
+		font-family: $Arial;
+		position: absolute;
+		bottom: 35%;
+		right: 10px;
+		font-size: 20px;
+		font-family: "Arial";
+		color: rgb(255, 255, 255);
+		font-weight: bold;
+		line-height: 1.2;
+		letter-spacing: -0.05em;
+	}
+	  
+}
+
 .homeSection1 {
 	.hsec1-card {
 		border-width: 2px;
@@ -260,6 +294,13 @@
 		align-items: center;
 		flex-direction: column;
 		gap: 24px;
+
+		&:hover {
+			h6 {
+				color: $colorf2;
+			}
+		}
+
 		.img {
 			height: 260px;
 			img {
@@ -277,6 +318,7 @@
 			color: rgb(0, 0, 0);
 			font-weight: bold;
 			line-height: 1;
+			transition: all 0.4s ease-in-out;
 		}
 	}
 }
@@ -655,6 +697,64 @@
 				font-family: "Arial";
 				color: $white;
 				line-height: 1.5;
+			}
+		}
+	}
+}
+
+
+.sideLeftBar {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	width: fit-content;
+	height: fit-content;
+	background-color: $colorf2;
+	border-radius: 0 5px 5px 0;
+	overflow: hidden;
+
+	&:hover {
+		h6 {
+			font-size: 14px;
+		}
+	}
+
+	h6 {
+		font-size: 0px;
+		color: #fff;
+		transition: all 0.4s ease-in-out;
+	}
+
+	ul {
+		display: flex;
+		flex-direction: column;
+
+		li {
+			border-bottom: 1px solid #ffffff67;
+
+			&.last {
+				border-bottom: none;
+			}
+			
+			a {
+				padding: 8px;
+				display: flex;
+				flex-direction: column;
+				gap: 5px;
+				.icon {
+					width: 25px;
+					img {
+						filter: brightness(100) contrast(100);
+					}
+				}
+
+				
+
+				&:hover {
+					background-color: #00000023
+				}
 			}
 		}
 	}

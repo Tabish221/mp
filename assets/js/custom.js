@@ -12,7 +12,6 @@ $(document).ready(function () {
         $('.popupMain').fadeOut();
         $('.overlay').fadeOut();
     });
-
 });
 
 
@@ -58,14 +57,25 @@ $(window).scroll(function () {
     }
 });
 
-
-// Normal Slider
-$('.index-slider').slick({
-    dots: false,
+$('.index-slider').on('init', function (event, slick) {
+    $(this).append(`<div class="slick-counter"><span class="current">${(slick.currentSlide + 1 < 10) ? '0' + (slick.currentSlide + 1) : slick.currentSlide + 1}</span> / <span class="total">${(slick.slideCount < 10) ? '0' + (slick.slideCount) : slick.slideCount}</span></div>`);
+    // $('.current').text(slick.currentSlide + 1);
+    // $('.total').text(slick.slideCount);
+}).slick({
+    autoplay: true,
+    autoplaySpeed: 3000,
     infinite: true,
-    speed: 300,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    fade: true,
+    arrows: false,
+    dots: true,
+}).on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+    var x = '';
+    if (nextSlide + 1 < 10) {
+        x = '0' + (nextSlide + 1)
+    } else {
+        x = nextSlide + 1;
+    }
+    $('.current').text(x);
 });
 
 $('.hsec2-slider').slick({

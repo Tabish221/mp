@@ -132,11 +132,11 @@ ul.slick-dots li {
 }
 
 .slick-dots li button {
-  height: 8px;
-  width: 8px;
+  height: 15px;
+  width: 15px;
   border-radius: 50%;
   padding: 0px;
-  background: #d6d6d6;
+  background: #fff;
   border: none;
   cursor: pointer;
   font-size: 0px;
@@ -146,9 +146,9 @@ ul.slick-dots li {
 }
 
 .slick-dots li.slick-active button {
-  background: #f3c919;
-  width: 11px;
-  height: 11px;
+  background: #f26522;
+  width: 15px;
+  height: 15px;
 }
 
 .slick-arrow {
@@ -858,8 +858,8 @@ footer .footer-right .widget ol li a:hover {
 }
 .mainBanner .mainBanner-socialLink {
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: auto;
+  bottom: 20%;
   left: 20px;
   height: -moz-fit-content;
   height: fit-content;
@@ -963,6 +963,36 @@ footer .footer-right .widget ol li a:hover {
   background-color: #77787b;
 }
 
+.index-slider {
+  overflow: visible;
+}
+.index-slider .slick-list {
+  overflow: visible;
+}
+.index-slider ul.slick-dots {
+  padding: 0px 0 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  top: auto;
+  bottom: 40%;
+  right: 10px;
+}
+.index-slider .slick-counter {
+  font-family: "Arial";
+  position: absolute;
+  bottom: 35%;
+  right: 10px;
+  font-size: 20px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: -0.05em;
+}
+
 .homeSection1 .hsec1-card {
   border-width: 2px;
   border-color: rgb(187, 189, 188);
@@ -1043,6 +1073,9 @@ footer .footer-right .widget ol li a:hover {
   flex-direction: column;
   gap: 24px;
 }
+.homeSection2 .hsec2-card:hover h6 {
+  color: #f26522;
+}
 .homeSection2 .hsec2-card .img {
   height: 260px;
 }
@@ -1060,6 +1093,7 @@ footer .footer-right .widget ol li a:hover {
   color: rgb(0, 0, 0);
   font-weight: bold;
   line-height: 1;
+  transition: all 0.4s ease-in-out;
 }
 
 .hsec3-cont {
@@ -1398,6 +1432,54 @@ footer .footer-right .widget ol li a:hover {
   font-family: "Arial";
   color: #ffffff;
   line-height: 1.5;
+}
+
+.sideLeftBar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #f26522;
+  border-radius: 0 5px 5px 0;
+  overflow: hidden;
+}
+.sideLeftBar:hover h6 {
+  font-size: 14px;
+}
+.sideLeftBar h6 {
+  font-size: 0px;
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+}
+.sideLeftBar ul {
+  display: flex;
+  flex-direction: column;
+}
+.sideLeftBar ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4039215686);
+}
+.sideLeftBar ul li.last {
+  border-bottom: none;
+}
+.sideLeftBar ul li a {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.sideLeftBar ul li a .icon {
+  width: 25px;
+}
+.sideLeftBar ul li a .icon img {
+  filter: brightness(100) contrast(100);
+}
+.sideLeftBar ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.137254902);
 }
 
 /* Responsive CSS */
