@@ -641,25 +641,25 @@ footer::before {
 footer .footer-left {
   display: flex;
   flex-direction: column;
-  gap: 35px;
-  padding-right: 90px;
+  gap: 15px;
+  padding-right: 60px;
   position: relative;
   z-index: 1;
 }
 footer .footer-left .footer-logo a {
   width: 100%;
   display: inline-block;
-  max-width: 250px;
+  max-width: 160px;
   font-size: 0;
 }
 footer .footer-left .footer-btn a {
-  font-size: 30px;
+  font-size: 22px;
   font-family: "Agrandir";
   color: rgb(0, 0, 0);
   font-weight: bold;
   line-height: 1.4;
   display: inline-flex;
-  align-items: flex-end;
+  align-items: center;
   gap: 5px;
 }
 footer .footer-left .footer-btn a:hover {
@@ -675,8 +675,8 @@ footer .footer-left .footer-btn a:hover .icon i {
 footer .footer-left .footer-btn a .icon {
   flex-shrink: 0;
   font-size: 0.6em;
-  width: 1.6em;
-  height: 1.6em;
+  width: 1.5em;
+  height: 1.5em;
   border-radius: 50%;
   background-color: transparent;
   border: 1px solid #f26522;
@@ -684,7 +684,7 @@ footer .footer-left .footer-btn a .icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   line-height: 0;
 }
 footer .footer-left .footer-btn a .icon i {
@@ -699,9 +699,9 @@ footer .footer-left .footer-socialLink ul {
 footer .footer-left .footer-socialLink ul li a {
   border: 2px solid #f26522;
   color: #f26522;
-  width: 45px;
-  height: 45px;
-  font-size: 24px;
+  width: 35px;
+  height: 35px;
+  font-size: 18px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -714,7 +714,7 @@ footer .footer-left .footer-socialLink ul li a:hover {
 footer .footer-right {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 40px;
   position: relative;
   z-index: 1;
 }
@@ -725,9 +725,9 @@ footer .footer-right .footerSearch {
 footer .footer-right .footerSearch input {
   border-radius: 10px;
   background-color: rgb(236, 236, 236);
-  height: 84px;
+  height: 60px;
   width: 100%;
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Arial";
   color: rgb(0, 0, 0);
   line-height: 1.2;
@@ -737,31 +737,38 @@ footer .footer-right .footerSearch button {
   border-radius: 5px;
   background-color: rgb(242, 101, 34);
   position: absolute;
-  right: 12px;
+  right: 8px;
   top: 0;
   bottom: 0;
   margin: auto;
-  width: 76px;
-  height: 69px;
+  width: 66px;
+  height: 50px;
+  padding: 10px;
+}
+footer .footer-right .footerSearch button img {
+  max-height: 100%;
+  max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 footer .footer-right .footerSearch button:hover {
   background-color: #77787b;
 }
 footer .footer-right .widget h6 {
-  font-size: 30px;
+  font-size: 26px;
   font-family: "Agrandir";
   color: rgb(0, 0, 0);
   font-weight: bold;
   line-height: 1.2;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 footer .footer-right .widget ul {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
 }
 footer .footer-right .widget ul li a {
-  font-size: 22px;
+  font-size: 20px;
   font-family: "Arial";
   color: rgb(0, 0, 0);
   line-height: 1;
@@ -793,16 +800,16 @@ footer .footer-right .widget ol li a:hover {
 
 .copyright {
   background-color: #f26522;
-  padding: 20px 0;
+  padding: 10px 0 5px;
 }
 .copyright p {
-  font-size: 20px;
+  font-size: 16px;
   color: rgb(255, 255, 255);
   line-height: 1.2;
   font-weight: 400;
 }
 .copyright a {
-  font-size: 20px;
+  font-size: 16px;
   color: rgb(255, 255, 255);
   line-height: 1.2;
   font-weight: 400;
@@ -811,7 +818,7 @@ footer .footer-right .widget ol li a:hover {
   color: #000000;
 }
 .copyright span {
-  font-size: 20px;
+  font-size: 16px;
   color: rgb(255, 255, 255);
   line-height: 1.2;
   font-weight: 400;
@@ -1177,7 +1184,7 @@ footer .footer-right .widget ol li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px;
+  font-size: 0;
 }
 .homeSection4 .hsec4-cont ul li .icon img {
   max-width: 100%;
@@ -1283,6 +1290,9 @@ footer .footer-right .widget ol li a:hover {
   gap: 20px;
   height: 100%;
 }
+.blogSec-card:hover .img img {
+  transform: scale(1.1);
+}
 .blogSec-card .img {
   width: 100%;
   height: 225px;
@@ -1298,6 +1308,7 @@ footer .footer-right .widget ol li a:hover {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+  transition: all 0.4s ease-in-out;
 }
 .blogSec-card .cont {
   display: flex;
@@ -1438,7 +1449,6 @@ footer .footer-right .widget ol li a:hover {
   position: fixed;
   top: 0;
   bottom: 0;
-  left: 0;
   margin: auto;
   width: -moz-fit-content;
   width: fit-content;
@@ -1447,6 +1457,11 @@ footer .footer-right .widget ol li a:hover {
   background-color: #f26522;
   border-radius: 0 5px 5px 0;
   overflow: hidden;
+  left: -600px;
+  transition: all 0.4s ease-in-out;
+}
+.sideLeftBar.show {
+  left: 0;
 }
 .sideLeftBar:hover h6 {
   font-size: 14px;

@@ -121,7 +121,6 @@
       </div>
    </div>
 
-
    <section class="homeSection1 secPad">
       <div class="container">
          <div class="hsec1-hd text-center hd-pad wow fadeInDown"  data-wow-delay="0.4s">
@@ -271,6 +270,8 @@
       </div>
    </section>
 
+   <div class="sideLeftBarStarter"></div>
+
    <section class="homeSection3 secPad">
       <div class="container">
          <div class="row align-items-center">
@@ -316,33 +317,51 @@
                      <div class="col-md-6">
                         <ul>
                            <li>
-                              <div class="icon"><img src="assets/images/sec4/location.png" alt="Loaction Icon"></div>
+                              <div class="icon">
+                                 <dotlottie-player class="thankyou-anim" src="assets/loti/location.json" background="transparent" speed="1" direction="1" playMode="normal" autoplay loop></dotlottie-player>
+                                 <!-- <img src="assets/images/sec4/location.png" alt="Loaction Icon"> -->
+                              </div>
                               <span>Karachi</span>
                            </li>
 
                            <li>
-                              <div class="icon"><img src="assets/images/sec4/location.png" alt="Loaction Icon"></div>
+                              <div class="icon">
+                                 <dotlottie-player class="thankyou-anim" src="assets/loti/location.json" background="transparent" speed="1" direction="1" playMode="normal" autoplay loop></dotlottie-player>
+                                 <!-- <img src="assets/images/sec4/location.png" alt="Loaction Icon"> -->
+                              </div>
                               <span>Hyderabad</span>
                            </li>
 
                            <li>
-                              <div class="icon"><img src="assets/images/sec4/location.png" alt="Loaction Icon"></div>
+                              <div class="icon">
+                                 <dotlottie-player class="thankyou-anim" src="assets/loti/location.json" background="transparent" speed="1" direction="1" playMode="normal" autoplay loop></dotlottie-player>
+                                 <!-- <img src="assets/images/sec4/location.png" alt="Loaction Icon"> -->
+                              </div>
                               <span>Lahore</span>
                            </li>
 
                            <li>
-                              <div class="icon"><img src="assets/images/sec4/location.png" alt="Loaction Icon"></div>
+                              <div class="icon">
+                                 <dotlottie-player class="thankyou-anim" src="assets/loti/location.json" background="transparent" speed="1" direction="1" playMode="normal" autoplay loop></dotlottie-player>
+                                 <!-- <img src="assets/images/sec4/location.png" alt="Loaction Icon"> -->
+                              </div>
                               <span>Peshawer</span>
                            </li>
 
                            <li>
-                              <div class="icon"><img src="assets/images/sec4/location.png" alt="Loaction Icon"></div>
+                              <div class="icon">
+                                 <dotlottie-player class="thankyou-anim" src="assets/loti/location.json" background="transparent" speed="1" direction="1" playMode="normal" autoplay loop></dotlottie-player>
+                                 <!-- <img src="assets/images/sec4/location.png" alt="Loaction Icon"> -->
+                              </div>
                               <span>Quetta</span>
                            </li>
 
                            <li>
-                              <div class="icon"><img src="assets/images/sec4/location.png" alt="Loaction Icon"></div>
-                              <span>Fausakabad</span>
+                              <div class="icon">
+                                 <dotlottie-player class="thankyou-anim" src="assets/loti/location.json" background="transparent" speed="1" direction="1" playMode="normal" autoplay loop></dotlottie-player>
+                                 <!-- <img src="assets/images/sec4/location.png" alt="Loaction Icon"> -->
+                              </div>
+                              <span>Faisalabad</span>
                            </li>
                         </ul>
                      </div>
@@ -350,17 +369,26 @@
                      <div class="col-md-6">
                         <ul>
                            <li>
-                              <div class="icon"><img src="assets/images/sec4/location.png" alt="Loaction Icon"></div>
+                              <div class="icon">
+                                 <dotlottie-player class="thankyou-anim" src="assets/loti/location.json" background="transparent" speed="1" direction="1" playMode="normal" autoplay loop></dotlottie-player>
+                                 <!-- <img src="assets/images/sec4/location.png" alt="Loaction Icon"> -->
+                              </div>
                               <span>Islamabad</span>
                            </li>
 
                            <li>
-                              <div class="icon"><img src="assets/images/sec4/location.png" alt="Loaction Icon"></div>
+                              <div class="icon">
+                                 <dotlottie-player class="thankyou-anim" src="assets/loti/location.json" background="transparent" speed="1" direction="1" playMode="normal" autoplay loop></dotlottie-player>
+                                 <!-- <img src="assets/images/sec4/location.png" alt="Loaction Icon"> -->
+                              </div>
                               <span>Multan</span>
                            </li>
 
                            <li>
-                              <div class="icon"><img src="assets/images/sec4/location.png" alt="Loaction Icon"></div>
+                              <div class="icon">
+                                 <dotlottie-player class="thankyou-anim" src="assets/loti/location.json" background="transparent" speed="1" direction="1" playMode="normal" autoplay loop></dotlottie-player>
+                                 <!-- <img src="assets/images/sec4/location.png" alt="Loaction Icon"> -->
+                              </div>
                               <span>Gujranwala</span>
                            </li>
 
@@ -620,6 +648,8 @@
 
    <?php include("includes/footer.php"); ?>
    <?php include("includes/scripts.php"); ?>
+   <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+
 
    <script>
       function halfContainerGap() {

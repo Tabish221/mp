@@ -12,6 +12,8 @@ $(document).ready(function () {
         $('.popupMain').fadeOut();
         $('.overlay').fadeOut();
     });
+
+    sideLeftBar();
 });
 
 
@@ -46,6 +48,21 @@ $('.acc_title').on('click', function () {
     }
 });
 
+function sideLeftBar(s) {
+    var scroll, ele, target, targetOffset, windowHeight;
+    
+    ele = $('.sideLeftBar');
+    windowHeight  = $(window).outerHeight();
+    target = $('.sideLeftBarStarter');
+    targetOffset = $(target).offset();
+    scroll = s;
+
+    if (scroll > targetOffset.top) {
+        ele.addClass('show');
+    } else {
+        ele.removeClass('show');
+    }
+}
 
 // Sticky Navigation
 $(window).scroll(function () {
@@ -55,12 +72,12 @@ $(window).scroll(function () {
     } else {
         $(".fixed").removeClass("sticky");
     }
+
+    sideLeftBar($(window).scrollTop());
 });
 
 $('.index-slider').on('init', function (event, slick) {
     $(this).append(`<div class="slick-counter"><span class="current">${(slick.currentSlide + 1 < 10) ? '0' + (slick.currentSlide + 1) : slick.currentSlide + 1}</span> / <span class="total">${(slick.slideCount < 10) ? '0' + (slick.slideCount) : slick.slideCount}</span></div>`);
-    // $('.current').text(slick.currentSlide + 1);
-    // $('.total').text(slick.slideCount);
 }).slick({
     autoplay: true,
     autoplaySpeed: 3000,
