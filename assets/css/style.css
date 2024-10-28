@@ -11,7 +11,8 @@
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 7px;
+  height: 7px;
   background-color: #F5F5F5;
 }
 
@@ -28,7 +29,13 @@
 ::-webkit-scrollbar-thumb:vertical {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: #e00000;
+  background-color: #f26522;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f26522;
 }
 
 /* Tabbing CSS */
@@ -256,6 +263,14 @@ button {
   left: 0;
   right: 0;
   margin: auto;
+}
+
+.fs-md {
+  font-size: 26px;
+  font-family: "Agrandir";
+  color: rgb(242, 101, 34);
+  font-weight: bold;
+  line-height: 1.2;
 }
 
 .fs-p1 {
@@ -838,6 +853,10 @@ footer .footer-right .widget ol li a:hover {
   min-height: 100vh;
   padding: 300px 0 150px;
 }
+.mainBanner.innerBanner {
+  min-height: 1px;
+  padding: 450px 0 250px;
+}
 .mainBanner .dropBtn {
   position: absolute;
   bottom: -55px;
@@ -1110,6 +1129,12 @@ footer .footer-right .widget ol li a:hover {
 }
 .hsec3-cont .fs-lg {
   margin-bottom: -10px;
+}
+
+.hSec3-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .hsec3-img {
@@ -1495,6 +1520,410 @@ footer .footer-right .widget ol li a:hover {
 }
 .sideLeftBar ul li a:hover {
   background-color: rgba(0, 0, 0, 0.137254902);
+}
+
+.aboutSection1 {
+  background-image: url(../images/sec2/white-paper-texture-background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.aboutSection1 .hsec3-cont {
+  padding-left: 40px;
+}
+
+.videoSection .videoSec-main {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.videoSection .videoSec-main .videoSec-btn span {
+  border-radius: 50%;
+  background-color: rgb(242, 101, 34);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  width: 151px;
+  height: 151px;
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding-left: 15px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.videoSection .videoSec-main .videoSec-btn span .fa-play {
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}
+.videoSection .videoSec-main .videoSec-btn span .fa-stop {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+.videoSection .videoSec-main .videoSec-btn span.itIsPlay .fa-play {
+  opacity: 0;
+}
+.videoSection .videoSec-main .videoSec-btn span.itIsPlay .fa-stop {
+  opacity: 1;
+}
+.videoSection .videoSec-main .videoSec-btn span:hover {
+  background-color: #77787b;
+}
+
+.contactSection1 .contactSec1-hd {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 60px;
+}
+.contactSection1 .contactSec1-form {
+  padding: 10px 0;
+}
+.contactSection1 .contactSec1-form .row {
+  row-gap: 35px;
+}
+.contactSection1 .contactSec1-form .contactSec1-fFeild {
+  position: relative;
+}
+.contactSection1 .contactSec1-form .contactSec1-fFeild input,
+.contactSection1 .contactSec1-form .contactSec1-fFeild select,
+.contactSection1 .contactSec1-form .contactSec1-fFeild textarea {
+  border-width: 2px;
+  border-color: rgb(187, 189, 188);
+  border-style: solid;
+  border-radius: 20px;
+  width: 100%;
+  height: 80px;
+  font-size: 20px;
+  font-family: "Arial";
+  color: rgb(3, 3, 3);
+  line-height: 1.1;
+  padding: 25px 55px 25px 25px;
+  transition: all 0.4s ease-in-out;
+}
+.contactSection1 .contactSec1-form .contactSec1-fFeild input:hover, .contactSection1 .contactSec1-form .contactSec1-fFeild input:focus,
+.contactSection1 .contactSec1-form .contactSec1-fFeild select:hover,
+.contactSection1 .contactSec1-form .contactSec1-fFeild select:focus,
+.contactSection1 .contactSec1-form .contactSec1-fFeild textarea:hover,
+.contactSection1 .contactSec1-form .contactSec1-fFeild textarea:focus {
+  border-color: #f26522;
+}
+.contactSection1 .contactSec1-form .contactSec1-fFeild textarea {
+  height: 180px;
+  resize: none;
+}
+.contactSection1 .contactSec1-form .contactSec1-fFeild .icon {
+  position: absolute;
+  top: 26px;
+  right: 15px;
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.contactSection1 .contactSec1-form .contactSec1-fBtn button {
+  border-radius: 10px;
+  background-color: rgb(242, 101, 34);
+  height: 63px;
+  width: 100%;
+  font-size: 20px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  transition: all 0.4s ease-in-out;
+}
+.contactSection1 .contactSec1-form .contactSec1-fBtn button:hover {
+  background-color: #77787b;
+}
+.contactSection1 .contactSec1-bottom {
+  padding-top: 50px;
+}
+.contactSection1 .contactSec1-bottom ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px 30px;
+}
+.contactSection1 .contactSec1-bottom ul li a {
+  text-wrap: nowrap;
+  font-size: 22px;
+  font-family: "Arial";
+  color: rgb(3, 3, 3);
+  font-weight: bold;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.contactSection1 .contactSec1-bottom ul li a .icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-color: rgb(242, 101, 34);
+  width: 44px;
+  height: 44px;
+  color: #fff;
+  font-size: 18px;
+  transition: all 0.4s ease-in-out;
+}
+.contactSection1 .contactSec1-bottom ul li a:hover {
+  color: #77787b;
+}
+.contactSection1 .contactSec1-bottom ul li a:hover .icon {
+  background-color: #77787b;
+}
+
+.contactSec1-tarffiBtn {
+  display: flex;
+  gap: 20px;
+}
+.contactSec1-tarffiBtn .tarffiBtnMain {
+  border-radius: 10px;
+  background-color: rgb(119, 120, 123);
+  width: auto;
+  height: 60px;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  transition: all 0.4s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.contactSec1-tarffiBtn .tarffiBtnMain:hover {
+  background-color: #f26522;
+}
+.contactSec1-tarffiBtn .loaderBtn {
+  background-color: #f26522;
+  cursor: not-allowed;
+}
+.contactSec1-tarffiBtn .tariffBtn {
+  background-color: #000;
+}
+
+.leadershipSection1 .leadershipSec-top ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #9b9b9b;
+  margin-bottom: 80px;
+}
+.leadershipSection1 .leadershipSec-top ul li {
+  position: relative;
+}
+.leadershipSection1 .leadershipSec-top ul li:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 25px solid #f26522;
+  position: absolute;
+  bottom: -31px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+.leadershipSection1 .leadershipSec-top ul li.current::after {
+  opacity: 1;
+}
+.leadershipSection1 .leadershipSec-main {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.leadershipSec-card .row {
+  align-items: center;
+}
+.leadershipSec-card .cont {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.leadershipSec-card .cont .fs-md {
+  margin-top: -15px;
+}
+
+.lifeSection1 .row {
+  row-gap: 90px;
+}
+.lifeSection1 .lifeSec1-card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.lifeSection1 .lifeSec1-card img {
+  border-radius: 10px;
+}
+.lifeSection1 .lifeSec1-see a {
+  font-size: 50px;
+  font-family: "Arial";
+  color: #f26522;
+  font-weight: bold;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.lifeSection1 .lifeSec1-see a .icon {
+  width: 125px;
+  height: 125px;
+  flex-shrink: 0;
+  color: #f26522;
+  border: 2px solid #f26522;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-45deg);
+  transition: all 0.4s ease-in-out;
+}
+.lifeSection1 .lifeSec1-see a:hover {
+  color: #030303;
+}
+.lifeSection1 .lifeSec1-see a:hover .icon {
+  background-color: #f26522;
+  color: #fff;
+  transform: rotate(0deg);
+}
+.lifeSection1 .lifeSec1-see ul {
+  display: none;
+}
+
+.loactionSection1 .loactionSec1-main .row {
+  row-gap: 45px;
+}
+.loactionSection1 .loactionSec1-main .loactionSec1-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+}
+.loactionSection1 .loactionSec1-main .loactionSec1-card .cont {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.loactionSection1 .loactionSec1-main .loactionSec1-card .cont h6 {
+  font-size: 29px;
+  font-family: "Agrandir";
+  color: rgb(3, 3, 3);
+  font-weight: bold;
+  line-height: 1.2;
+}
+.loactionSection1 .loactionSec1-main .loactionSec1-card .cont a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Arial";
+}
+.loactionSection1 .loactionSec1-main .loactionSec1-card .cont a .icon {
+  background-color: #f26522;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 13px;
+  padding: 0px;
+  flex: 0 0 auto;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease-in-out;
+}
+.loactionSection1 .loactionSec1-main .loactionSec1-card .cont a:hover {
+  color: #f26522;
+}
+
+.innerSection1 {
+  background-image: url(../images/sec2/white-paper-texture-background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.innerSection1 .img img {
+  width: 100%;
+}
+.innerSection1 .cont {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 60px;
+}
+
+.innerSection2 .cont {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-right: 40px;
+}
+.innerSection2 .cont ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 20px;
+}
+.innerSection2 .cont ul li {
+  font-size: 18px;
+  font-family: "Arial";
+  color: rgb(3, 3, 3);
+  line-height: 1.2;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.innerSection2 .cont ul li .icon {
+  width: 22px;
+  height: 22px;
+  padding-top: 2px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #f26522;
+  font-size: 14px;
+  border-radius: 50%;
+}
+.innerSection2 .innerSec-bottom {
+  padding-top: 60px;
 }
 
 /* Responsive CSS */

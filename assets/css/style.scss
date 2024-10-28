@@ -13,7 +13,12 @@
 	align-items: center;
 	position: relative;
 	min-height: 100vh;
-    padding: 300px 0 150px;
+	padding: 300px 0 150px;
+
+	&.innerBanner {
+		min-height: 1px;
+		padding: 450px 0 250px;
+	}
 
 	.dropBtn {
 		position: absolute;
@@ -192,7 +197,6 @@
 		line-height: 1.2;
 		letter-spacing: -0.05em;
 	}
-	  
 }
 
 .homeSection1 {
@@ -266,7 +270,7 @@
 			width: 80%;
 
 			&::after {
-				content: '';
+				content: "";
 				background: #000;
 				height: 2px;
 				display: flex;
@@ -331,6 +335,12 @@
 	.fs-lg {
 		margin-bottom: -10px;
 	}
+}
+
+.hSec3-bottom {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
 }
 
 .hsec3-img {
@@ -712,7 +722,6 @@
 	}
 }
 
-
 .sideLeftBar {
 	position: fixed;
 	top: 0;
@@ -752,7 +761,7 @@
 			&.last {
 				border-bottom: none;
 			}
-			
+
 			a {
 				padding: 8px;
 				display: flex;
@@ -765,10 +774,441 @@
 					}
 				}
 
-				
+				&:hover {
+					background-color: #00000023;
+				}
+			}
+		}
+	}
+}
+
+// #################################################################################
+// ########################### ABOUT US INNER PAGE #################################
+// #################################################################################
+.aboutSection1 {
+	background-image: url(../images/sec2/white-paper-texture-background.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	.hsec3-cont {
+		padding-left: 40px;
+	}
+}
+
+.videoSection {
+	.videoSec-main {
+		position: relative;
+		border-radius: 10px;
+		overflow: hidden;
+
+		.videoSec-btn {
+			span {
+				border-radius: 50%;
+				background-color: rgb(242, 101, 34);
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				margin: auto;
+				width: 151px;
+				height: 151px;
+				font-size: 90px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				color: #fff;
+				padding-left: 15px;
+				cursor: pointer;
+				transition: all 0.4s ease-in-out;
+
+				.fa-play {
+					opacity: 1;
+					transition: all 0.2s ease-in-out;
+				}
+
+				.fa-stop {
+					position: absolute;
+					top: 0;
+					bottom: 0;
+					left: 0;
+					right: 0;
+					margin: auto;
+					display: block;
+					width: fit-content;
+					height: fit-content;
+					opacity: 0;
+					transition: all 0.2s ease-in-out;
+				}
+
+				&.itIsPlay {
+					.fa-play {
+						opacity: 0;
+					}
+
+					.fa-stop {
+						opacity: 1;
+					}
+				}
 
 				&:hover {
-					background-color: #00000023
+					background-color: $color77;
+				}
+			}
+		}
+	}
+}
+
+// #################################################################################
+// ######################### Contact US INNER PAGE #################################
+// #################################################################################
+// contact
+
+.contactSection1 {
+	.contactSec1-hd {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		padding-top: 60px;
+	}
+
+	.contactSec1-form {
+		padding: 10px 0;
+
+		.row {
+			row-gap: 35px;
+		}
+
+		.contactSec1-fFeild {
+			position: relative;
+
+			input,
+			select,
+			textarea {
+				border-width: 2px;
+				border-color: rgb(187, 189, 188);
+				border-style: solid;
+				border-radius: 20px;
+				width: 100%;
+				height: 80px;
+				font-size: 20px;
+				font-family: $Arial;
+				color: rgb(3, 3, 3);
+				line-height: 1.1;
+				padding: 25px 55px 25px 25px;
+				transition: all 0.4s ease-in-out;
+
+				&:hover,
+				&:focus {
+					border-color: $colorf2;
+				}
+			}
+
+			textarea {
+				height: 180px;
+				resize: none;
+			}
+
+			.icon {
+				position: absolute;
+				top: 26px;
+				right: 15px;
+				margin: auto;
+				width: fit-content;
+				height: fit-content;
+			}
+		}
+
+		.contactSec1-fBtn {
+			button {
+				border-radius: 10px;
+				background-color: rgb(242, 101, 34);
+				height: 63px;
+				width: 100%;
+				font-size: 20px;
+				font-family: "Arial";
+				color: rgb(255, 255, 255);
+				font-weight: bold;
+				line-height: 1.2;
+				transition: all 0.4s ease-in-out;
+
+				&:hover {
+					background-color: $color77;
+				}
+			}
+		}
+	}
+
+	.contactSec1-bottom {
+		padding-top: 50px;
+
+		ul {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-wrap: wrap;
+			gap: 20px 30px;
+
+			li {
+				a {
+					text-wrap: nowrap;
+					font-size: 22px;
+					font-family: $Arial;
+					color: rgb(3, 3, 3);
+					font-weight: bold;
+					line-height: 1.2;
+					display: flex;
+					align-items: center;
+					gap: 10px;
+
+					.icon {
+						display: inline-flex;
+						align-items: center;
+						justify-content: center;
+						flex-shrink: 0;
+						border-radius: 50%;
+						background-color: rgb(242, 101, 34);
+						width: 44px;
+						height: 44px;
+						color: #fff;
+						font-size: 18px;
+						transition: all 0.4s ease-in-out;
+					}
+
+					&:hover {
+						color: $color77;
+
+						.icon {
+							background-color: $color77;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.contactSec1-tarffiBtn {
+	display: flex;
+	gap: 20px;
+
+	.tarffiBtnMain {
+		border-radius: 10px;
+		background-color: rgb(119, 120, 123);
+		width: auto;
+		height: 60px;
+		padding: 15px 30px;
+		font-size: 20px;
+		font-family: "Arial";
+		color: rgb(255, 255, 255);
+		line-height: 1.2;
+		transition: all 0.4s ease-in-out;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+
+		&:hover {
+			background-color: $colorf2;
+		} 
+	}
+
+
+	.loaderBtn {
+		background-color: $colorf2;
+		cursor: not-allowed;
+	}
+
+	.tariffBtn{
+		background-color: #000;
+	}
+}
+
+// #################################################################################
+// ######################### Leadership INNER PAGE #################################
+// #################################################################################
+.leadershipSection1 {
+	.leadershipSec-top {
+		ul {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 20px;
+			padding-bottom: 30px;
+			border-bottom: 1px solid $color9b;
+			margin-bottom: 80px;
+
+			li {
+				position: relative;
+
+				&:after {
+					content: "";
+					width: 0;
+					height: 0;
+					border-left: 25px solid transparent;
+					border-right: 25px solid transparent;
+					border-bottom: 25px solid $colorf2;
+					position: absolute;
+					bottom: -31px;
+					left: 0;
+					right: 0;
+					margin: auto;
+					opacity: 0;
+					transition: all 0.4s ease-in-out;
+				}
+
+				&.current {
+					&::after {
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
+
+	.leadershipSec-main {
+		display: flex;
+		flex-direction: column;
+		gap: 60px;
+	}
+}
+
+.leadershipSec-card {
+	.row {
+		align-items: center;
+	}
+
+	.cont {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+
+		.fs-md {
+			margin-top: -15px;
+		}
+	}
+}
+
+// #################################################################################
+// ######################### Life At M&P INNER PAGE ################################
+// #################################################################################
+.lifeSection1 {
+	.row {
+		row-gap: 90px;
+	}
+
+	.lifeSec1-card {
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+
+		img {
+			border-radius: 10px;
+		}
+	}
+
+	.lifeSec1-see {
+		a {
+			font-size: 50px;
+			font-family: "Arial";
+			color: $colorf2;
+			font-weight: bold;
+			line-height: 1.2;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			flex-wrap: wrap;
+			gap: 30px;
+
+			.icon {
+				width: 125px;
+				height: 125px;
+				flex-shrink: 0;
+				color: $colorf2;
+				border: 2px solid $colorf2;
+				border-radius: 50%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				transform: rotate(-45deg);
+				transition: all 0.4s ease-in-out;
+			}
+
+			&:hover {
+				color: $color03;
+				.icon {
+					background-color: $colorf2;
+					color: #fff;
+					transform: rotate(0deg);
+				}
+			}
+		}
+
+		ul {
+			display: none;
+		}
+	}
+}
+
+.loactionSection1 {
+	.loactionSec1-main {
+		.row {
+			row-gap: 45px;
+		}
+
+		.loactionSec1-card {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			gap: 30px;
+			text-align: center;
+
+			.img {
+			}
+
+			.cont {
+				display: flex;
+				flex-direction: column;
+				gap: 15px;
+
+				h6 {
+					font-size: 29px;
+					font-family: "Agrandir";
+					color: rgb(3, 3, 3);
+					font-weight: bold;
+					line-height: 1.2;
+				}
+
+				a {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					gap: 10px;
+					font-size: 20px;
+					font-weight: 700;
+					line-height: 1.2;
+					font-family: $Arial;
+
+					.icon {
+						background-color: $colorf2;
+						border-radius: 50%;
+						color: #fff;
+						font-size: 13px;
+						padding: 0px;
+						flex: 0 0 auto;
+						width: 25px;
+						height: 25px;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						transition: all 0.4s ease-in-out;
+					}
+
+					&:hover {
+						color: $colorf2;
+					}
 				}
 			}
 		}
@@ -776,13 +1216,72 @@
 }
 
 
+// #################################################################################
+// ############################ Same INNER PAGE ####################################
+// #################################################################################
+.innerSection1 {
+	background-image: url(../images/sec2/white-paper-texture-background.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 
+	.img {
+		img {
+			width: 100%;
+		}
+	}
 
+	.cont {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		padding-left: 60px;
+	}
+}
 
+.innerSection2 {
+	.cont {
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+		padding-right: 40px;
 
+		ul {
+			display: flex;
+			flex-direction: column;
+			gap: 15px;
+			padding-top: 20px;
 
+			li {
+				font-size: 18px;
+				font-family: "Arial";
+				color: rgb(3, 3, 3);
+				line-height: 1.2;
+				display: flex;
+				align-items: flex-start;
+				gap: 10px;
 
+				.icon {
+					width: 22px;
+					height: 22px;
+					padding-top: 2px;
+					flex-shrink: 0;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					color: #fff;
+					background-color: $colorf2;
+					font-size: 14px;
+					border-radius: 50%
+				}
+			}
+		}
+	}
 
+	.innerSec-bottom {
+		padding-top: 60px;
+	}
+}
 
 
 

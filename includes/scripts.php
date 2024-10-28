@@ -42,6 +42,7 @@
 
 <script src="assets/js/jquery.js"></script>
 <script src="assets/js/custom.js"></script>
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
 <script>
 	new WOW().init();
 </script>
