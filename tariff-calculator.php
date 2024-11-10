@@ -79,9 +79,6 @@
                      <div class="contactSec1-fFeild">
                         <select>
                            <option value="0" selected disabled>Select Origin</option>
-                           <option value="1">Option 1</option>
-                           <option value="2">Option 2</option>
-                           <option value="3">Option 3</option>
                         </select>
                      </div>
                   </div>
@@ -90,20 +87,21 @@
                      <div class="contactSec1-fFeild">
                         <select>
                            <option value="0" selected disabled>Select Destination</option>
-                           <option value="1">Option 1</option>
-                           <option value="2">Option 2</option>
-                           <option value="3">Option 3</option>
                         </select>
                      </div>
                   </div>
 
                   <div class="col-md-12">
                      <div class="contactSec1-fFeild">
-                        <select>
-                           <option value="0" selected disabled>Select Serice Type</option>
-                           <option value="1">Option 1</option>
-                           <option value="2">Option 2</option>
-                           <option value="3">Option 3</option>
+                        <select name="serviceType">
+                           <option disabled="" value="default" selected="">Select Service Type</option>
+                           <option value="overnight">Overnight document in envelope</option>
+                           <option value="same day">Same Day</option>
+                           <option value="second day">48 Hours delivery</option>
+                           <option value="express cargo">72-92 Hours delivery</option>
+                           <option value="flyer">Overnight Doc/Non Doc in Flyer</option>
+                           <option value="MyBox">Overnight Parcel in Branded Box</option>
+                           <option value="International">International</option>
                         </select>
                      </div>
                   </div>

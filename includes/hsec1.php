@@ -1,7 +1,7 @@
-<section class="homeSection1 secPad">
+<!-- <section class="homeSection1 secPad">
     <div class="container">
         <div class="hsec1-hd text-center hd-pad wow fadeInDown" data-wow-delay="0.4s">
-            <h6 class="fs-lg">Effortless Shipping Solutions For Seamless Deliveries</h6>
+            <h6 class="fs-lg">Effortless Shipping Solutions <br> For Seamless Deliveries</h6>
         </div>
 
         <div class="hsec1-main">
@@ -44,5 +44,5 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <div class="sideLeftBarStarter"></div>

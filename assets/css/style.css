@@ -237,7 +237,7 @@ button {
 }
 
 .fs-lg {
-  font-size: 54px;
+  font-size: 46px;
   font-family: "Agrandir";
   color: #030303;
   font-weight: bold;
@@ -266,7 +266,7 @@ button {
 }
 
 .fs-md {
-  font-size: 26px;
+  font-size: 22px;
   font-family: "Agrandir";
   color: rgb(242, 101, 34);
   font-weight: bold;
@@ -274,7 +274,7 @@ button {
 }
 
 .fs-p1 {
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Arial";
   color: rgb(3, 3, 3);
   line-height: 1.5;
@@ -362,9 +362,50 @@ header {
   z-index: 9;
 }
 
+.offcanvas-top {
+  height: 80px;
+}
+.offcanvas-top .topHeader-search {
+  position: relative;
+  width: 100%;
+}
+.offcanvas-top .topHeader-search input {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 0.8em;
+  border-radius: 5px;
+}
+.offcanvas-top .topHeader-search button {
+  position: absolute;
+  right: 2px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 50px;
+  height: 90%;
+  background: #f26522;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  transition: all 0.4s ease-in-out;
+}
+.offcanvas-top .topHeader-search button:hover {
+  background-color: #77787b;
+}
+
 .top-header {
-  padding: 20px 0 25px;
+  padding: 10px 0 15px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.302);
+  transition: all 0.4s ease-in-out;
+  top: -200px;
+}
+.top-header.sticky {
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7215686275);
 }
 .top-header .topHeader-action ul {
   display: flex;
@@ -386,13 +427,13 @@ header {
 .top-header .topHeader-action ul li a .icon span {
   border-radius: 50%;
   background-color: #f26522;
-  width: 44px;
-  height: 44px;
+  width: 30px;
+  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 16px;
 }
 .top-header .topHeader-action ul li a .cont {
   display: flex;
@@ -400,13 +441,13 @@ header {
   gap: 1px;
 }
 .top-header .topHeader-action ul li a .cont span {
-  font-size: 13px;
+  font-size: 11px;
   font-family: "Arial";
   line-height: 1.2;
   color: #ffffff;
 }
 .top-header .topHeader-action ul li a .cont b {
-  font-size: 18px;
+  font-size: 14px;
   font-family: "Arial";
   font-weight: 600;
   line-height: 1.2;
@@ -423,13 +464,13 @@ header {
 }
 .top-header .topHeader-left .topHeader-search input {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 6px;
   background-color: #ffffff;
   border: 1px solid #ffffff;
   padding: 5px 60px 5px 15px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
-  height: 44px;
+  height: 38px;
   transition: all 0.4s ease-in-out;
 }
 .top-header .topHeader-left .topHeader-search input:hover, .top-header .topHeader-left .topHeader-search input:focus {
@@ -441,12 +482,12 @@ header {
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 5px;
+  right: 3px;
   margin: auto;
-  width: 38px;
-  height: 34px;
+  width: 40px;
+  height: 30px;
   color: #ffffff;
-  font-size: 17px;
+  font-size: 16px;
 }
 .top-header .topHeader-left .topHeader-search button:hover {
   background-color: #77787b;
@@ -457,10 +498,10 @@ header {
 .top-header .topHeader-left .topHeader-nav ul {
   display: flex;
   align-items: center;
-  gap: 45px;
+  gap: 30px;
 }
 .top-header .topHeader-left .topHeader-nav ul li a {
-  font-size: 22px;
+  font-size: 18px;
   font-family: "Arial";
   color: #ffffff;
   line-height: 1.2;
@@ -476,6 +517,7 @@ header {
 }
 .main-header .logo {
   display: inline-block;
+  width: 120px;
 }
 .main-header .logo img {
   display: block;
@@ -487,12 +529,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 35px;
+  gap: 30px;
 }
 .menu li a {
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Arial";
   color: #ffffff;
+  font-weight: 400;
   line-height: 1.2;
 }
 .menu li a:hover {
@@ -632,7 +675,7 @@ header {
 
 footer {
   position: relative;
-  padding: 90px 0 190px;
+  padding: 90px 0 100px;
   overflow: hidden;
 }
 footer::before {
@@ -668,7 +711,7 @@ footer .footer-left .footer-logo a {
   font-size: 0;
 }
 footer .footer-left .footer-btn a {
-  font-size: 22px;
+  font-size: 18px;
   font-family: "Agrandir";
   color: rgb(0, 0, 0);
   font-weight: bold;
@@ -714,9 +757,9 @@ footer .footer-left .footer-socialLink ul {
 footer .footer-left .footer-socialLink ul li a {
   border: 2px solid #f26522;
   color: #f26522;
-  width: 35px;
-  height: 35px;
-  font-size: 18px;
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -738,11 +781,11 @@ footer .footer-right .footerSearch {
   position: relative;
 }
 footer .footer-right .footerSearch input {
-  border-radius: 10px;
+  border-radius: 6px;
   background-color: rgb(236, 236, 236);
-  height: 60px;
+  height: 50px;
   width: 100%;
-  font-size: 20px;
+  font-size: 17px;
   font-family: "Arial";
   color: rgb(0, 0, 0);
   line-height: 1.2;
@@ -752,12 +795,12 @@ footer .footer-right .footerSearch button {
   border-radius: 5px;
   background-color: rgb(242, 101, 34);
   position: absolute;
-  right: 8px;
+  right: 4px;
   top: 0;
   bottom: 0;
   margin: auto;
   width: 66px;
-  height: 50px;
+  height: 45px;
   padding: 10px;
 }
 footer .footer-right .footerSearch button img {
@@ -770,7 +813,7 @@ footer .footer-right .footerSearch button:hover {
   background-color: #77787b;
 }
 footer .footer-right .widget h6 {
-  font-size: 26px;
+  font-size: 22px;
   font-family: "Agrandir";
   color: rgb(0, 0, 0);
   font-weight: bold;
@@ -783,7 +826,7 @@ footer .footer-right .widget ul {
   gap: 15px;
 }
 footer .footer-right .widget ul li a {
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Arial";
   color: rgb(0, 0, 0);
   line-height: 1;
@@ -801,7 +844,7 @@ footer .footer-right .widget ol li a {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 22px;
+  font-size: 18px;
   font-family: "Arial";
   color: rgb(0, 0, 0);
   line-height: 1.1;
@@ -811,6 +854,23 @@ footer .footer-right .widget ol li a .icon {
 }
 footer .footer-right .widget ol li a:hover {
   color: #f26522;
+}
+footer .footer-map {
+  width: 100%;
+  padding-top: 15px;
+}
+footer .footer-map iframe {
+  width: 100%;
+  height: 100px;
+}
+footer .footer-download {
+  display: flex;
+  gap: 10px;
+  padding-top: 15px;
+  font-size: 0;
+}
+footer .footer-download a {
+  width: 50%;
 }
 
 .copyright {
@@ -859,7 +919,7 @@ footer .footer-right .widget ol li a:hover {
 }
 .mainBanner .dropBtn {
   position: absolute;
-  bottom: -55px;
+  bottom: -45px;
   right: 0;
   left: 0;
   margin: auto;
@@ -871,13 +931,17 @@ footer .footer-right .widget ol li a:hover {
 .mainBanner .dropBtn a {
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
-  width: 110px;
-  height: 110px;
+  width: 90px;
+  height: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #77787b;
-  font-size: 90px;
+  font-size: 30px;
+}
+.mainBanner .dropBtn a img, .mainBanner .dropBtn a svg {
+  max-width: 100%;
+  max-height: 100%;
 }
 .mainBanner .dropBtn a:hover {
   transform: scale(1.05);
@@ -896,7 +960,7 @@ footer .footer-right .widget ol li a:hover {
 .mainBanner .mainBanner-socialLink ul {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
 }
 .mainBanner .mainBanner-socialLink ul li a {
   border-style: solid;
@@ -904,13 +968,13 @@ footer .footer-right .widget ol li a:hover {
   border-color: #ffffff;
   border-radius: 50%;
   background-color: transparent;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #ffffff;
-  font-size: 26px;
+  font-size: 20px;
 }
 .mainBanner .mainBanner-socialLink ul li a:hover {
   background-color: #f26522;
@@ -953,7 +1017,7 @@ footer .footer-right .widget ol li a:hover {
   margin: auto;
 }
 .mainBanner .mainBanner-cont p {
-  font-size: 28px;
+  font-size: 24px;
   font-family: "Arial";
   color: rgb(254, 254, 254);
   line-height: 1.2;
@@ -1021,7 +1085,7 @@ footer .footer-right .widget ol li a:hover {
 
 .homeSection1 .hsec1-card {
   border-width: 2px;
-  border-color: rgb(187, 189, 188);
+  border-color: #f26522;
   border-style: solid;
   border-radius: 20px;
   width: 100%;
@@ -1053,6 +1117,7 @@ footer .footer-right .widget ol li a:hover {
   max-width: 100%;
   max-height: 100%;
   transition: all 0.4s ease-in-out;
+  filter: contrast(100);
 }
 .homeSection1 .hsec1-card h6 {
   font-size: 24px;
@@ -1097,13 +1162,13 @@ footer .footer-right .widget ol li a:hover {
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 24px;
+  gap: 20px;
 }
 .homeSection2 .hsec2-card:hover h6 {
   color: #f26522;
 }
 .homeSection2 .hsec2-card .img {
-  height: 260px;
+  height: 200px;
 }
 .homeSection2 .hsec2-card .img img {
   height: 100%;
@@ -1114,7 +1179,7 @@ footer .footer-right .widget ol li a:hover {
 }
 .homeSection2 .hsec2-card h6 {
   text-align: center;
-  font-size: 26px;
+  font-size: 20px;
   font-family: "Agrandir";
   color: rgb(0, 0, 0);
   font-weight: bold;
@@ -1320,7 +1385,7 @@ footer .footer-right .widget ol li a:hover {
 }
 .blogSec-card .img {
   width: 100%;
-  height: 225px;
+  height: 150px;
   border-radius: 20px;
   background-color: #9b9b9b;
   font-size: 0;
@@ -1341,14 +1406,14 @@ footer .footer-right .widget ol li a:hover {
   gap: 15px;
 }
 .blogSec-card .cont h6 {
-  font-size: 25px;
+  font-size: 18px;
   font-family: "Agrandir";
   color: rgb(13, 13, 13);
   font-weight: bold;
   line-height: 1.2;
 }
 .blogSec-card .cont p {
-  font-size: 18px;
+  font-size: 15px;
   font-family: "Arial";
   color: rgb(155, 155, 155);
   display: -webkit-box;
@@ -1367,7 +1432,7 @@ footer .footer-right .widget ol li a:hover {
   align-items: center;
   justify-content: space-between;
   gap: 15px;
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Arial";
   color: #f26522;
   font-weight: bold;
@@ -1439,7 +1504,7 @@ footer .footer-right .widget ol li a:hover {
   align-items: center;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
-  font-size: 24px;
+  font-size: 18px;
   font-family: "Agrandir";
   color: rgb(255, 255, 255);
   font-weight: bold;
@@ -1451,20 +1516,20 @@ footer .footer-right .widget ol li a:hover {
   padding: 5px;
   transition: 0.35s ease-out;
   font-weight: 100;
-  width: 45px;
-  height: 45px;
-  flex: 0 0 45px;
+  width: 25px;
+  height: 25px;
+  flex: 0 0 25px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.3em;
+  font-size: 0.8em;
 }
 .accordion li .acc_desc {
-  padding-top: 10px;
+  padding-top: 5px;
 }
 .accordion li .acc_desc p {
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Arial";
   color: #ffffff;
   line-height: 1.5;
@@ -1829,16 +1894,19 @@ footer .footer-right .widget ol li a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
   text-align: center;
+}
+.loactionSection1 .loactionSec1-main .loactionSec1-card .img img {
+  width: 70px;
 }
 .loactionSection1 .loactionSec1-main .loactionSec1-card .cont {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 8px;
 }
 .loactionSection1 .loactionSec1-main .loactionSec1-card .cont h6 {
-  font-size: 29px;
+  font-size: 22px;
   font-family: "Agrandir";
   color: rgb(3, 3, 3);
   font-weight: bold;
@@ -1848,21 +1916,22 @@ footer .footer-right .widget ol li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-  font-size: 20px;
+  gap: 5px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 1.2;
   font-family: "Arial";
 }
 .loactionSection1 .loactionSec1-main .loactionSec1-card .cont a .icon {
+  flex-shrink: 0;
   background-color: #f26522;
   border-radius: 50%;
   color: #fff;
-  font-size: 13px;
+  font-size: 10px;
   padding: 0px;
   flex: 0 0 auto;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   display: flex;
   align-items: center;
   justify-content: center;

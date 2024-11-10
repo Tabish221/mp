@@ -29,20 +29,9 @@
                </ul>
             </div>
             <div class="container">
-               <div class="mainBanner-cont">
-                  <h1 class="wow fadeInDown"  data-wow-delay="0.2s">Express Logistic <span><em>Solutions</em></span></h1>
-                  <p class="wow fadeInDown"  data-wow-delay="0.4s">M&P helps you deliver on your commitments by ensuring we fulfill ours.</p>
-                  <div class="mainBanner-search wow fadeInDown"  data-wow-delay="0.6s">
-                     <input type="text" placeholder="Enter Tracking Number...">
-                     <button>
-                        <div class="icon"><img src="assets/images/icon/fast-delivery.png" alt="Fast Delivery Icon"></div>
-                     </button>
-                  </div>
-      
-                  <div class="mn-groupBtn mn-btn justify-content-center">
-                     <a href="#" class="greyBtn wow fadeInLeft"  data-wow-delay="0.2s">Learn More</a>
-                     <a href="#" class=" wow fadeInLeft"  data-wow-delay="0.4s">Get A Quote</a>
-                  </div>
+               <div class="mainBanner-cont w-75 m-auto">
+                  <h1 class="wow fadeInDown"  data-wow-delay="0.2s">Express Logistic  <span><em>Solutions</em></span></h1>
+                  <p class="wow fadeInDown"  data-wow-delay="0.4s">M&P helps you deliver on your commitments by <br> ensuring we fulfill ours.</p>
                </div>
             </div>
          </section>
@@ -65,20 +54,9 @@
                </ul>
             </div>
             <div class="container">
-               <div class="mainBanner-cont">
-                  <h1>Express Logistic <span><em>Solutions 2</em></span></h1>
-                  <p>M&P helps you deliver on your commitments by ensuring we fulfill ours.</p>
-                  <div class="mainBanner-search">
-                     <input type="text" placeholder="Enter Tracking Number...">
-                     <button>
-                        <div class="icon"><img src="assets/images/icon/fast-delivery.png" alt="Fast Delivery Icon"></div>
-                     </button>
-                  </div>
-      
-                  <div class="mn-groupBtn mn-btn justify-content-center">
-                     <a href="#" class="greyBtn">Learn More</a>
-                     <a href="#">Get A Quote</a>
-                  </div>
+               <div class="mainBanner-cont w-75 m-auto">
+                  <h1 class="wow fadeInDown"  data-wow-delay="0.2s">Express Logistic  <span><em>Solutions</em></span></h1>
+                  <p class="wow fadeInDown"  data-wow-delay="0.4s">M&P helps you deliver on your commitments by <br> ensuring we fulfill ours.</p>
                </div>
             </div>
          </section>
@@ -100,7 +78,7 @@
                   <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                </ul>
             </div>
-            <div class="container">
+            <!-- <div class="container">
                <div class="mainBanner-cont">
                   <h1>Express Logistic <span><em>Solutions 3</em></span></h1>
                   <p>M&P helps you deliver on your commitments by ensuring we fulfill ours.</p>
@@ -116,12 +94,66 @@
                      <a href="#">Get A Quote</a>
                   </div>
                </div>
+            </div> -->
+
+            <div class="container">
+               <div class="mainBanner-cont w-75 m-auto">
+                  <h1 class="wow fadeInDown"  data-wow-delay="0.2s">Express Logistic  <span><em>Solutions</em></span></h1>
+                  <p class="wow fadeInDown"  data-wow-delay="0.4s">M&P helps you deliver on your commitments by <br> ensuring we fulfill ours.</p>
+               </div>
             </div>
          </section>
       </div>
    </div>
 
-   <?php include("includes/hsec1.php"); ?>
+   <section class="homeSection1 secPad">
+    <div class="container">
+        <div class="hsec1-hd text-center hd-pad wow fadeInDown" data-wow-delay="0.4s">
+            <h6 class="fs-lg">Effortless Shipping Solutions <br> For Seamless Deliveries</h6>
+        </div>
+
+        <div class="hsec1-main">
+            <div class="row">
+                <div class="col-xl-3 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <a href="#" class="hsec1-card">
+                        <div class="icon">
+                            <img src="assets/images/icon/get_a_quote.png" alt="Get A Quote Icon">
+                        </div>
+                        <h6>Get a Quote</h6>
+                    </a>
+                </div>
+
+                <div class="col-xl-3 col-md-6 wow fadeInLeft" data-wow-delay="0.4s">
+                    <a href="#" class="hsec1-card">
+                        <div class="icon">
+                            <img src="assets/images/icon/rate_calculator.png" alt="Rate Calculator Icon">
+                        </div>
+                        <h6>Rate Calculator</h6>
+                    </a>
+                </div>
+
+                <div class="col-xl-3 col-md-6 wow fadeInLeft" data-wow-delay="0.6s">
+                    <a href="#" class="hsec1-card">
+                        <div class="icon">
+                            <img src="assets/images/icon/launch_a_compalint.png" alt="Launch A Compalint Icon">
+                        </div>
+                        <h6>Launch A Compalint</h6>
+                    </a>
+                </div>
+
+                <div class="col-xl-3 col-md-6 wow fadeInLeft" data-wow-delay="0.8s">
+                    <a href="#" class="hsec1-card">
+                        <div class="icon">
+                            <img src="assets/images/icon/loaction_us.png" alt="Locate Us Icon">
+                        </div>
+                        <h6>Locate Us</h6>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="sideLeftBarStarter"></div>
 
    <section class="homeSection2 secPad">
       <div class="container">
@@ -135,14 +167,14 @@
                   <p class="fs-p1">A curated selection of courier services that can be customized to perfectly match your requirements and ensure timely delivery to over 1600+ domestic and 200+ global locations.</p>
                </div>
 
-               <div class="col-md-5 wow fadeInRight"  data-wow-delay="0.4s">
+               <!-- <div class="col-md-5 wow fadeInRight"  data-wow-delay="0.4s">
                   <div class="mn-searchBox">
                      <input type="text" placeholder="Enter Tracking Number.....">
                      <button>
                         <div class="icon"><img src="assets/images/icon/fast-delivery.png" alt="Fast Delivery Icon"></div>
                      </button>
                   </div>
-               </div>
+               </div> -->
             </div>
          </div>
 
@@ -243,7 +275,7 @@
                   <p class="fs-p1 text-9b">We pride ourselves on providing the best transport and shipping services globally through an integrated network of 750+ courier centers in Pakistan handling more than 2 Million shipments annually.</p>
    
                   <div class="mn-groupBtn mn-btn">
-                     <a href="#">Open An Account</a>
+                     <!-- <a href="#">Open An Account</a> -->
                      <a href="#" class="greyBtn">Get A Quote</a>
                   </div>
                </div>
@@ -254,7 +286,7 @@
 
    <section class="homeSection4 secPad">
       <div class="container-fluid pl-0">
-         <div class="row">
+         <div class="row align-items-center">
             <div class="col-md-6 wow fadeInLeft"  data-wow-delay="0.4s">
                <div class="hsec4-img fs-0">
                   <img src="assets/images/sec4/img.png" alt="Our Loactions">
@@ -264,6 +296,12 @@
             <div class="col-md-6 wow fadeInRight"  data-wow-delay="0.4s">
                <div class="hsec4-cont">
                   <h6 class="fs-lg">Our Locations</h6>
+                  <div class="mn-searchBox">
+                     <input type="text" placeholder="Search your location...">
+                     <button>
+                        <div class="icon text-white fs-md"><i class="fas fa-search"></i></div>
+                     </button>
+                  </div>
 
                   <div class="row">
                      <div class="col-md-6">
@@ -297,7 +335,7 @@
                                  <dotlottie-player class="thankyou-anim" src="assets/loti/location.json" background="transparent" speed="1" direction="1" playMode="normal" autoplay loop></dotlottie-player>
                                  <!-- <img src="assets/images/sec4/location.png" alt="Loaction Icon"> -->
                               </div>
-                              <span>Peshawer</span>
+                              <span>Peshawar</span>
                            </li>
 
                            <li>
@@ -383,7 +421,7 @@
       </div>
    </section>
 
-   <section class="ctaSection">
+   <!-- <section class="ctaSection">
       <div class="container-fluid p-0">
          <div class="ctaSec-main wow fadeInUp"  data-wow-delay="0.4s">
             <ul>
@@ -425,7 +463,7 @@
             </ul>
          </div>
       </div>
-   </section>
+   </section> -->
 
    <section class="blogSection secPad">
       <div class="container">
@@ -445,7 +483,7 @@
                         <h6>Stay Home, Stay Safe! Stay Courier Connected Home</h6>
                         <p>It is often said, “desperate times call for desperate measures.” During the offset of COVID-19 globally, like any other organization, M&P too ensured the organization’s...</p>
                         <a href="#">
-                           Learn More
+                           Read More
                            <div class="icon"><i class="far fa-arrow-right"></i></div>
                         </a>
                      </div>
@@ -462,7 +500,7 @@
                         <h6>The Future of the Courier & Logistics Industry in Pakistan!</h6>
                         <p>According to the Asian Development Bank, COVID-19 and the resulting pandemic have cost the country as much as between US$ 16.387 million and US$ 49.95...</p>
                         <a href="#">
-                           Learn More
+                           Read More
                            <div class="icon"><i class="far fa-arrow-right"></i></div>
                         </a>
                      </div>
@@ -479,7 +517,7 @@
                         <h6>Supporting Our Youth’s Passion for Sports!</h6>
                         <p>Sports help to groom our youth as it guides them to develop skills that have direct workplace crossover. It teaches teamwork, communication, strategic development and...</p>
                         <a href="#">
-                           Learn More
+                           Read More
                            <div class="icon"><i class="far fa-arrow-right"></i></div>
                         </a>
                      </div>

@@ -34,17 +34,30 @@
       </div>
    </section>
 
-   <?php include("includes/hsec1.php"); ?>
+   <div class="sideLeftBarStarter"></div>
 
    <section class="loactionSection1 secPad">
       <div class="container">
-         <div class="loactionSec1-hd hd-pad text-center">
-            <h6 class="fs-lg">Don't Worry About Your Courier.</h6>
+         <div class="loactionSec1-hd hd-pad">
+            <div class="row align-items-center">
+               <div class="col-md-6">
+                  <h6 class="fs-lg">Don't Worry About Your Courier.</h6>
+               </div>
+
+               <div class="col-md-6">
+                  <div class="mn-searchBox">
+                     <input type="text" placeholder="Search your location..." class="border border-secondary">
+                     <button>
+                        <div class="icon text-white fs-md"><i class="fas fa-search"></i></div>
+                     </button>
+                  </div>
+               </div>
+            </div>
          </div>
          <!-- map-icon.png -->
          <div class="loactionSec1-main">
-            <div class="row">
-               <div class="col-xl-4 col-md-6">
+            <div class="row align-items-center justify-content-center">
+               <div class="col-xl-3 col-lg-4 col-md-6">
                   <div class="loactionSec1-card">
                      <div class="img">
                         <img src="assets/images/map-icon.png" alt="Map Icon">
@@ -66,7 +79,7 @@
                   </div>
                </div>
 
-               <div class="col-xl-4 col-md-6">
+               <div class="col-xl-3 col-lg-4 col-md-6">
                   <div class="loactionSec1-card">
                      <div class="img">
                         <img src="assets/images/map-icon.png" alt="Map Icon">
@@ -88,7 +101,7 @@
                   </div>
                </div>
 
-               <div class="col-xl-4 col-md-6">
+               <div class="col-xl-3 col-lg-4 col-md-6">
                   <div class="loactionSec1-card">
                      <div class="img">
                         <img src="assets/images/map-icon.png" alt="Map Icon">
@@ -110,7 +123,7 @@
                   </div>
                </div>
 
-               <div class="col-xl-4 col-md-6">
+               <div class="col-xl-3 col-lg-4 col-md-6">
                   <div class="loactionSec1-card">
                      <div class="img">
                         <img src="assets/images/map-icon.png" alt="Map Icon">
@@ -132,7 +145,7 @@
                   </div>
                </div>
 
-               <div class="col-xl-4 col-md-6">
+               <div class="col-xl-3 col-lg-4 col-md-6">
                   <div class="loactionSec1-card">
                      <div class="img">
                         <img src="assets/images/map-icon.png" alt="Map Icon">
@@ -154,7 +167,7 @@
                   </div>
                </div>
 
-               <div class="col-xl-4 col-md-6">
+               <div class="col-xl-3 col-lg-4 col-md-6">
                   <div class="loactionSec1-card">
                      <div class="img">
                         <img src="assets/images/map-icon.png" alt="Map Icon">
@@ -176,7 +189,7 @@
                   </div>
                </div>
 
-               <div class="col-xl-4 col-md-6">
+               <div class="col-xl-3 col-lg-4 col-md-6">
                   <div class="loactionSec1-card">
                      <div class="img">
                         <img src="assets/images/map-icon.png" alt="Map Icon">
@@ -198,7 +211,7 @@
                   </div>
                </div>
 
-               <div class="col-xl-4 col-md-6">
+               <div class="col-xl-3 col-lg-4 col-md-6">
                   <div class="loactionSec1-card">
                      <div class="img">
                         <img src="assets/images/map-icon.png" alt="Map Icon">
@@ -220,7 +233,7 @@
                   </div>
                </div>
 
-               <div class="col-xl-4 col-md-6">
+               <div class="col-xl-3 col-lg-4 col-md-6">
                   <div class="loactionSec1-card">
                      <div class="img">
                         <img src="assets/images/map-icon.png" alt="Map Icon">

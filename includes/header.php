@@ -1,7 +1,18 @@
+
+<div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+  <div class="offcanvas-header">
+    <div class="topHeader-search">
+		<input type="text" placeholder="Search Here...">
+		<button><i class="fas fa-search"></i></button>
+	</div>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+</div>
+
 <header>
-	<div class="top-header">
+	<div class="top-header fixed">
 		<div class="container">
-			<div class="row">
+			<div class="row align-items-center">
 				<div class="col-md-6">
 					<div class="topHeader-action">
 						<ul>
@@ -35,13 +46,13 @@
 				<div class="col-md-6">
 					<div class="topHeader-left">
 						<div class="topHeader-search">
-							<input type="text" placeholder="Search Here...">
+							<input type="text" placeholder="Enter Tracking Number...">
 							<button><i class="fas fa-search"></i></button>
 						</div>
 
 						<div class="topHeader-nav">
 							<ul>
-								<li><a href="#">Career</a></li>
+								<li><a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="fas fa-search"></i></a></li>
 								<li><a href="#">Cod Portal</a></li>
 							</ul>
 						</div>
@@ -69,8 +80,9 @@
 							<li class="active"><a href="./">Home</a></li>
 							<li><a href="#">About Us</a></li>
 							<li><a href="#">Our Services</a></li>
+							<li><a href="#">Career</a></li>
 							<li><a href="#">Logistics</a></li>
-							<li><a href="#">Business Solutions</a></li>
+							<!-- <li><a href="#">Business Solutions</a></li> -->
 							<li class="navBtn"><a href="#">Contact Us</a></li>
 						</ul>
 					</div>

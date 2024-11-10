@@ -10,9 +10,54 @@ header {
 	z-index: 9;
 }
 
+.offcanvas-top {
+	height: 80px;
+
+	.topHeader-search {
+		position: relative;
+		width: 100%;
+
+		input {
+			width: 100%;
+			border: 1px solid #ccc;
+			padding: 0.8em;
+			border-radius: 5px;
+		}
+	
+		button {
+			position: absolute;
+			right: 2px;
+			top: 0;
+			bottom: 0;
+			margin: auto;
+			width: 50px;
+			height: 90%;
+			background: $colorf2;
+			border-radius: 5px;
+			color: #fff;
+			font-size: 20px;
+			transition: all 0.4s ease-in-out;
+
+			&:hover {
+				background-color: $color77;
+			}
+		}
+	}
+}
+
 .top-header {
-	padding: 20px 0 25px;
+	padding: 10px 0 15px;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.302);
+	transition: all 0.4s ease-in-out;
+	top: -200px;
+
+	&.sticky {
+		backdrop-filter: blur(30px);
+		position: fixed;
+		top: 0;
+		width: 100%;
+		background: #000000b8;
+	}
 
 	.topHeader-action {
 		ul {
@@ -36,13 +81,13 @@ header {
 						span {
 							border-radius: 50%;
 							background-color: $colorf2;
-							width: 44px;
-							height: 44px;
+							width: 30px;
+							height: 30px;
 							display: flex;
 							align-items: center;
 							justify-content: center;
 							color: $white;
-							font-size: 18px;
+							font-size: 16px;
 						}
 					}
 
@@ -51,13 +96,13 @@ header {
 						flex-direction: column;
 						gap: 1px;
 						span {
-							font-size: 13px;
+							font-size: 11px;
 							font-family: "Arial";
 							line-height: 1.2;
 							color: $white;					  
 						}
 						b {
-							font-size: 18px;
+							font-size: 14px;
 							font-family: "Arial";
 							font-weight: 600;
 							line-height: 1.2;							  
@@ -80,13 +125,13 @@ header {
 
 			input {
 				width: 100%;
-				border-radius: 10px;
+				border-radius: 6px;
 				background-color: $white;
 				border: 1px solid $white;
 				padding: 5px 60px 5px 15px;
-				font-size: 16px;
+				font-size: 14px;
 				font-weight: 500;
-				height: 44px;
+				height: 38px;
 				transition: all 0.4s ease-in-out;
 
 				&:hover, &:focus {
@@ -100,12 +145,12 @@ header {
 				position: absolute;
 				top: 0;
 				bottom: 0;
-				right: 5px;
+				right: 3px;
 				margin: auto;
-				width: 38px;
-				height: 34px;
+				width: 40px;
+				height: 30px;
 				color: $white;		  
-				font-size: 17px;
+				font-size: 16px;
 
 				&:hover {
 					background-color: $color77;
@@ -118,11 +163,11 @@ header {
 			ul {
 				display: flex;
 				align-items: center;
-				gap: 45px;
+				gap: 30px;
 
 				li {
 					a {
-						font-size: 22px;
+						font-size: 18px;
 						font-family: "Arial";
 						color: $white;
 						line-height: 1.2;
@@ -144,6 +189,7 @@ header {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.302);
 	.logo {
 		display: inline-block;
+		width: 120px;
 	
 		img {
 			display: block;
@@ -157,13 +203,14 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	gap: 35px;
+	gap: 30px;
 
 	li {
 		a {
-			font-size: 18px;
+			font-size: 16px;
 			font-family: "Arial";
 			color: $white;
+			font-weight: 400;
 			line-height: 1.2;			  
 
 			&:hover {

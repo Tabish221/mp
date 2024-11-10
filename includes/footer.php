@@ -11,7 +11,7 @@
 
 					<div class="footer-btn">
 						<a href="#">
-							Connet With Us
+							M&P Private Limited
 							<div class="icon">
 								<span><i class="far fa-arrow-right"></i></span>
 							</div>
@@ -49,7 +49,7 @@
 									<li><a href="#">My Flyer</a></li>
 									<li><a href="#">My Box</a></li>
 									<li><a href="#">Value Added Service</a></li>
-									<li><a href="#">Inernational</a></li>
+									<li><a href="#">International</a></li>
 								</ul>
 							</div>
 
@@ -86,6 +86,15 @@
 										</a>
 									</li>
 								</ol>
+
+								<div class="footer-map">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.9221471001574!2d67.04289627442748!3d24.798119247751092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33d9b22ebee47%3A0xe1ef1c0471593213!2sM%26P%20Courier!5e0!3m2!1sen!2s!4v1731277379425!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+								</div>
+
+								<div class="footer-download">
+									<a href="https://play.google.com/store/apps/details?id=com.mpel.customerapp&pli=1" target="_blank"><img src="assets/images/google_play_store.webp" alt="google_play_store"></a>
+									<a href="#"><img src="assets/images/app_store.png" alt="app_store"></a>
+								</div>
 							</div>
 						</div>
 					</div>
