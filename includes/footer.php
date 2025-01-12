@@ -58,9 +58,9 @@
 
 								<ul>
 									<li><a href="#">About Us</a></li>
-									<li><a href="#">Courer</a></li>
+									<li><a href="#">Courier</a></li>
 									<li><a href="#">Logistics</a></li>
-									<li><a href="#">COD</a></li>
+									<li><a href="#">COD Portal</a></li>
 									<li><a href="#">Business Solution</a></li>
 								</ul>
 							</div>

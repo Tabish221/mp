@@ -26,6 +26,7 @@
                   <li class="wow fadeInLeft"  data-wow-delay="0.4s"><a href="#"><i class="fab fa-instagram"></i></a></li>
                   <li class="wow fadeInLeft"  data-wow-delay="0.6s"><a href="#"><i class="fab fa-twitter"></i></a></li>
                   <li class="wow fadeInLeft"  data-wow-delay="0.8s"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                  <li class="wow fadeInLeft"  data-wow-delay="1s"><a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="fab fa-search"></i></a></li>
                </ul>
             </div>
             <div class="container">
@@ -51,6 +52,7 @@
                   <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                   <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                   <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                  <li class="wow fadeInLeft"  data-wow-delay="1s"><a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="fab fa-search"></i></a></li>
                </ul>
             </div>
             <div class="container">
@@ -76,6 +78,7 @@
                   <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                   <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                   <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                  <li class="wow fadeInLeft"  data-wow-delay="1s"><a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="fab fa-search"></i></a></li>
                </ul>
             </div>
             <!-- <div class="container">
@@ -185,7 +188,7 @@
                      <div class="img">
                         <img src="assets/images/sec2/img1.png" alt="Same Day Delivery">
                      </div>
-                     <h6>Same Day Delivery</h6>
+                     <h6>Domestic</h6>
                   </a>
                </div>
 
@@ -194,7 +197,7 @@
                      <div class="img">
                         <img src="assets/images/sec2/img2.png" alt="My Box">
                      </div>
-                     <h6>My Box</h6>
+                     <h6>Cash on delivery</h6>
                   </a>
                </div>
 
@@ -203,7 +206,7 @@
                      <div class="img">
                         <img src="assets/images/sec2/img3.png" alt="My Flyer">
                      </div>
-                     <h6>My Flyer</h6>
+                     <h6>Cargo</h6>
                   </a>
                </div>
 
@@ -212,7 +215,7 @@
                      <div class="img">
                         <img src="assets/images/sec2/img4.png" alt="Overnight Delivery">
                      </div>
-                     <h6>Overnight Delivery</h6>
+                     <h6>International</h6>
                   </a>
                </div>
 
@@ -221,7 +224,16 @@
                      <div class="img">
                         <img src="assets/images/sec2/img1.png" alt="Same Day Delivery">
                      </div>
-                     <h6>Same Day Delivery</h6>
+                     <h6>Warehousing </h6>
+                  </a>
+               </div>
+
+               <div class="">
+                  <a href="#" class="hsec2-card">
+                     <div class="img">
+                        <img src="assets/images/sec2/img1.png" alt="Same Day Delivery">
+                     </div>
+                     <h6>Domestic</h6>
                   </a>
                </div>
 
@@ -230,7 +242,7 @@
                      <div class="img">
                         <img src="assets/images/sec2/img2.png" alt="My Box">
                      </div>
-                     <h6>My Box</h6>
+                     <h6>Cash on delivery</h6>
                   </a>
                </div>
 
@@ -239,7 +251,7 @@
                      <div class="img">
                         <img src="assets/images/sec2/img3.png" alt="My Flyer">
                      </div>
-                     <h6>My Flyer</h6>
+                     <h6>Cargo</h6>
                   </a>
                </div>
 
@@ -248,7 +260,16 @@
                      <div class="img">
                         <img src="assets/images/sec2/img4.png" alt="Overnight Delivery">
                      </div>
-                     <h6>Overnight Delivery</h6>
+                     <h6>International</h6>
+                  </a>
+               </div>
+
+               <div class="">
+                  <a href="#" class="hsec2-card">
+                     <div class="img">
+                        <img src="assets/images/sec2/img1.png" alt="Same Day Delivery">
+                     </div>
+                     <h6>Warehousing </h6>
                   </a>
                </div>
             </div>
@@ -271,7 +292,7 @@
    
             <div class="col-md-7 wow fadeInRight"  data-wow-delay="0.6s">
                <div class="hsec3-cont">
-                  <h6 class="fs-lg">Safe, Reliable & Express Courier <span><em>Solution</em></span></h6>
+                  <h6 class="fs-lg1">Safe, Reliable & Express <br> Courier <span><em>Solution</em></span></h6>
                   <p class="fs-p1 text-9b">We pride ourselves on providing the best transport and shipping services globally through an integrated network of 750+ courier centers in Pakistan handling more than 2 Million shipments annually.</p>
    
                   <div class="mn-groupBtn mn-btn">

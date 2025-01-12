@@ -206,7 +206,7 @@
 
 .homeSection1 {
 	.hsec1-card {
-		border-width: 2px;
+		border-width: 5px;
 		border-color: $colorf2;
 		border-style: solid;
 		border-radius: 20px;
@@ -420,8 +420,8 @@
 				.icon {
 					border-radius: 50%;
 					background-color: rgb(242, 101, 34);
-					width: 55px;
-					height: 55px;
+					width: 35px;
+					height: 35px;
 					display: flex;
 					align-items: center;
 					justify-content: center;
@@ -436,7 +436,7 @@
 				}
 
 				span {
-					font-size: 35px;
+					font-size: 26px;
 					font-family: "Agrandir";
 					color: rgb(0, 0, 0);
 					line-height: 1.7;

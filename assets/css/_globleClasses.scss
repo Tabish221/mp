@@ -3,7 +3,7 @@
 }
 
 .fs-lg {
-    font-size: 46px;
+    font-size: 44px;
     font-family: "Agrandir";
     color: #030303;
     font-weight: bold;
@@ -27,6 +27,38 @@
             background-size: contain;
             position: absolute;
             bottom: 15px;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+    }
+}
+
+.fs-lg1 {
+    font-size: 34px;
+    font-family: "Agrandir";
+    color: #030303;
+    font-weight: bold;
+    line-height: 1.16; 
+    
+    span {
+        position: relative;
+
+        em {
+            position: relative;
+            z-index: 1;
+        }
+
+        &::before {
+            content: '';
+            width: 95%;
+            height: 100%;
+            background-image: url(../images/heading-line.png);
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            bottom: 0.3em;
             left: 0;
             right: 0;
             margin: auto;
@@ -64,10 +96,10 @@
 
 .mn-btn {
     a {
-        border-radius: 10px;
+        border-radius: 8px;
         background-color: $colorf2;
-        padding: 20px 35px;
-        font-size: 20px;
+        padding: 15px 35px;
+        font-size: 18px;
         font-family: "Arial";
         color: rgb(255, 255, 255);
         line-height: 1.2;

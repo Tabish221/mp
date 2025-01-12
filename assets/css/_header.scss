@@ -46,7 +46,7 @@ header {
 }
 
 .top-header {
-	padding: 10px 0 15px;
+	padding: 10px 0 12px;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.302);
 	transition: all 0.4s ease-in-out;
 	top: -200px;
@@ -55,6 +55,7 @@ header {
 		backdrop-filter: blur(30px);
 		position: fixed;
 		top: 0;
+		padding: 7px 0;
 		width: 100%;
 		background: #000000b8;
 	}
@@ -125,13 +126,13 @@ header {
 
 			input {
 				width: 100%;
-				border-radius: 6px;
+				border-radius: 2px;
 				background-color: $white;
 				border: 1px solid $white;
 				padding: 5px 60px 5px 15px;
 				font-size: 14px;
 				font-weight: 500;
-				height: 38px;
+				height: 35px;
 				transition: all 0.4s ease-in-out;
 
 				&:hover, &:focus {
@@ -140,15 +141,15 @@ header {
 			}
 
 			button {
-				border-radius: 5px;
+				border-radius: 0 2px 2px 0;
 				background-color: $colorf2;
 				position: absolute;
 				top: 0;
 				bottom: 0;
-				right: 3px;
+				right: 0px;
 				margin: auto;
 				width: 40px;
-				height: 30px;
+				height: 100%;
 				color: $white;		  
 				font-size: 16px;
 
@@ -210,8 +211,10 @@ header {
 			font-size: 16px;
 			font-family: "Arial";
 			color: $white;
-			font-weight: 400;
-			line-height: 1.2;			  
+			font-weight: 600;
+			line-height: 1.2;
+			padding-bottom: 15px;		  
+			margin-top: 15px;
 
 			&:hover {
 				color: $colorf2;
@@ -224,13 +227,15 @@ header {
 
 		&.navBtn {
 			a {
-				border-radius: 10px;
+				border-radius: 5px;
 				background-color: $colorf2;
 				padding: 10px 30px;
-				font-size: 18px;
+				font-size: 20px;
 				font-family: "Arial";
 				color: $white;
 				line-height: 1.2;
+				font-weight: 700;
+				margin: 0;
 
 				&:hover {
 					background-color: $color77;
@@ -277,11 +282,11 @@ header {
 
 	.dropdown {
 		position: absolute;
-		width: 100%;
+		width: 180px;
 		left: -0px;
 		margin: auto;
 		background: $white;
-		padding: 20px;
+		padding: 15px 0;
 		text-align: left;
 		border-radius: 2px;
 		box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.078);
@@ -290,8 +295,11 @@ header {
 
 		li {
 			width: 100%;
-			display: inline-block;
-			vertical-align: middle;
+			padding: 0 15px 15px;
+
+			&.last {
+				padding-bottom: 0;
+			}
 
 			a {
 				padding: 0;
@@ -299,13 +307,12 @@ header {
 				color: $black !important;
 				display: block;
 				width: 100%;
-				margin: 0px 0 15px;
-				text-align: center;
+				margin: 0;
 				font-weight: 600;
 				background: transparent !important;
 
 				&:hover {
-					color: $black !important;
+					color: $colorf2 !important;
 				}
 			}
 		}

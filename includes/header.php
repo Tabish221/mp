@@ -17,25 +17,16 @@
 					<div class="topHeader-action">
 						<ul>
 							<li>
-								<a href="tel:(021) 111-202-202">
+								<a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
 									<div class="icon">
-										<span><i class="fas fa-phone"></i></span>
-									</div>
-									<div class="cont">
-										<span>Get In Touch</span>
-										<b>(021) 111-202-202</b>
+										<i class="fas fa-search"></i>
 									</div>
 								</a>
 							</li>
-
 							<li>
-								<a href="mailto:contact@mulphilog.com">
+								<a href="tel:(021) 111-202-202">
 									<div class="icon">
-										<span><i class="fas fa-envelope"></i></span>
-									</div>
-									<div class="cont">
-										<span>Email Now!</span>
-										<b>contact@mulphilog.com</b>
+										<i class="fas fa-phone"></i>
 									</div>
 								</a>
 							</li>
@@ -52,8 +43,8 @@
 
 						<div class="topHeader-nav">
 							<ul>
-								<li><a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="fas fa-search"></i></a></li>
-								<li><a href="#">Cod Portal</a></li>
+								<li><a href="#">Contact</a></li>
+								<li><a href="#">COD Portal</a></li>
 							</ul>
 						</div>
 					</div>
@@ -77,13 +68,40 @@
 				<div class="col-md-9">
 					<div class="menuWrap">
 						<ul class="menu">
-							<li class="active"><a href="./">Home</a></li>
-							<li><a href="#">About Us</a></li>
-							<li><a href="#">Our Services</a></li>
+							<!-- <li class="active"><a href="./">Home</a></li> -->
+							<li class="dropdown-nav">
+								<a href="#">About Us</a>
+
+								<ul class="dropdown">
+									<li><a href="#">Our Leadership</a></li>
+									<li><a href="#">Our Locations</a></li>
+									<li><a href="#">Our Journey</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-nav">
+								<a href="#">Our Services</a>
+
+								<ul class="dropdown">
+									<li>
+										<a href="#">Corporate Business</a>
+									</li>
+									<li>
+										<a href="#">Consumer Business</a>
+									</li>
+								</ul>
+							</li>
 							<li><a href="#">Career</a></li>
-							<li><a href="#">Logistics</a></li>
-							<!-- <li><a href="#">Business Solutions</a></li> -->
-							<li class="navBtn"><a href="#">Contact Us</a></li>
+							<!-- <li><a href="#">Logistics</a></li> -->
+							<li class="dropdown-nav">
+								<a href="#">Business Solutions</a>
+
+								<ul class="dropdown">
+									<li><a href="#">Temperature Controlled Solution</a></li>
+									<li><a href="#">Print and Distribution</a></li>
+									<li><a href="#">Logistics</a></li>
+								</ul>
+							</li>
+							<li class="navBtn"><a href="#">Tariff</a></li>
 						</ul>
 					</div>
 				</div>

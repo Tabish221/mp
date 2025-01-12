@@ -237,7 +237,7 @@ button {
 }
 
 .fs-lg {
-  font-size: 46px;
+  font-size: 44px;
   font-family: "Agrandir";
   color: #030303;
   font-weight: bold;
@@ -260,6 +260,35 @@ button {
   background-size: contain;
   position: absolute;
   bottom: 15px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.fs-lg1 {
+  font-size: 34px;
+  font-family: "Agrandir";
+  color: #030303;
+  font-weight: bold;
+  line-height: 1.16;
+}
+.fs-lg1 span {
+  position: relative;
+}
+.fs-lg1 span em {
+  position: relative;
+  z-index: 1;
+}
+.fs-lg1 span::before {
+  content: "";
+  width: 95%;
+  height: 100%;
+  background-image: url(../images/heading-line.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: 0.3em;
   left: 0;
   right: 0;
   margin: auto;
@@ -292,10 +321,10 @@ button {
 }
 
 .mn-btn a {
-  border-radius: 10px;
+  border-radius: 8px;
   background-color: #f26522;
-  padding: 20px 35px;
-  font-size: 20px;
+  padding: 15px 35px;
+  font-size: 18px;
   font-family: "Arial";
   color: rgb(255, 255, 255);
   line-height: 1.2;
@@ -394,7 +423,7 @@ header {
 }
 
 .top-header {
-  padding: 10px 0 15px;
+  padding: 10px 0 12px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.302);
   transition: all 0.4s ease-in-out;
   top: -200px;
@@ -404,6 +433,7 @@ header {
           backdrop-filter: blur(30px);
   position: fixed;
   top: 0;
+  padding: 7px 0;
   width: 100%;
   background: rgba(0, 0, 0, 0.7215686275);
 }
@@ -464,28 +494,28 @@ header {
 }
 .top-header .topHeader-left .topHeader-search input {
   width: 100%;
-  border-radius: 6px;
+  border-radius: 2px;
   background-color: #ffffff;
   border: 1px solid #ffffff;
   padding: 5px 60px 5px 15px;
   font-size: 14px;
   font-weight: 500;
-  height: 38px;
+  height: 35px;
   transition: all 0.4s ease-in-out;
 }
 .top-header .topHeader-left .topHeader-search input:hover, .top-header .topHeader-left .topHeader-search input:focus {
   border-color: #f26522;
 }
 .top-header .topHeader-left .topHeader-search button {
-  border-radius: 5px;
+  border-radius: 0 2px 2px 0;
   background-color: #f26522;
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 3px;
+  right: 0px;
   margin: auto;
   width: 40px;
-  height: 30px;
+  height: 100%;
   color: #ffffff;
   font-size: 16px;
 }
@@ -535,8 +565,10 @@ header {
   font-size: 16px;
   font-family: "Arial";
   color: #ffffff;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.2;
+  padding-bottom: 15px;
+  margin-top: 15px;
 }
 .menu li a:hover {
   color: #f26522;
@@ -545,13 +577,15 @@ header {
   color: #f26522;
 }
 .menu li.navBtn a {
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: #f26522;
   padding: 10px 30px;
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Arial";
   color: #ffffff;
   line-height: 1.2;
+  font-weight: 700;
+  margin: 0;
 }
 .menu li.navBtn a:hover {
   background-color: #77787b;
@@ -592,11 +626,11 @@ header {
 }
 .dropdown-nav .dropdown {
   position: absolute;
-  width: 100%;
+  width: 180px;
   left: 0px;
   margin: auto;
   background: #ffffff;
-  padding: 20px;
+  padding: 15px 0;
   text-align: left;
   border-radius: 2px;
   box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.078);
@@ -605,8 +639,10 @@ header {
 }
 .dropdown-nav .dropdown li {
   width: 100%;
-  display: inline-block;
-  vertical-align: middle;
+  padding: 0 15px 15px;
+}
+.dropdown-nav .dropdown li.last {
+  padding-bottom: 0;
 }
 .dropdown-nav .dropdown li a {
   padding: 0;
@@ -614,13 +650,12 @@ header {
   color: #000000 !important;
   display: block;
   width: 100%;
-  margin: 0px 0 15px;
-  text-align: center;
+  margin: 0;
   font-weight: 600;
   background: transparent !important;
 }
 .dropdown-nav .dropdown li a:hover {
-  color: #000000 !important;
+  color: #f26522 !important;
 }
 
 /* Hamburger Menu */
@@ -1084,7 +1119,7 @@ footer .footer-download a {
 }
 
 .homeSection1 .hsec1-card {
-  border-width: 2px;
+  border-width: 5px;
   border-color: #f26522;
   border-style: solid;
   border-radius: 20px;
@@ -1269,8 +1304,8 @@ footer .footer-download a {
 .homeSection4 .hsec4-cont ul li .icon {
   border-radius: 50%;
   background-color: rgb(242, 101, 34);
-  width: 55px;
-  height: 55px;
+  width: 35px;
+  height: 35px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1283,7 +1318,7 @@ footer .footer-download a {
      object-fit: contain;
 }
 .homeSection4 .hsec4-cont ul li span {
-  font-size: 35px;
+  font-size: 26px;
   font-family: "Agrandir";
   color: rgb(0, 0, 0);
   line-height: 1.7;
