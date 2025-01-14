@@ -68,18 +68,17 @@
 				<div class="col-md-9">
 					<div class="menuWrap">
 						<ul class="menu">
-							<!-- <li class="active"><a href="./">Home</a></li> -->
 							<li class="dropdown-nav">
-								<a href="#">About Us</a>
+								<a href="about-us.php">About Us</a>
 
 								<ul class="dropdown">
-									<li><a href="#">Our Leadership</a></li>
-									<li><a href="#">Our Locations</a></li>
-									<li><a href="#">Our Journey</a></li>
+									<li><a href="leadership.php">Our Leadership</a></li>
+									<li><a href="location.php">Our Locations</a></li>
+									<li><a href="life-at-m&p.php">Our Journey</a></li>
 								</ul>
 							</li>
 							<li class="dropdown-nav">
-								<a href="#">Our Services</a>
+								<a href="#">Courier Services</a>
 
 								<ul class="dropdown">
 									<li>
@@ -96,12 +95,13 @@
 								<a href="#">Business Solutions</a>
 
 								<ul class="dropdown">
-									<li><a href="#">Temperature Controlled Solution</a></li>
-									<li><a href="#">Print and Distribution</a></li>
-									<li><a href="#">Logistics</a></li>
+									<li><a href="same-day-delivery.php">Temperature Controlled Solution</a></li>
+									<li><a href="same-day-delivery.php">Print and Distribution</a></li>
+									<li><a href="same-day-delivery.php">Express Logistics Solution</a></li>
+									<li><a href="same-day-delivery.php">Blog</a></li>
 								</ul>
 							</li>
-							<li class="navBtn"><a href="#">Tariff</a></li>
+							<li class="navBtn"><a href="tariff-calculator.php">Tariff</a></li>
 						</ul>
 					</div>
 				</div>
