@@ -1294,6 +1294,101 @@
 }
 
 
+// 
+.productSec1-main {
+	h5 {
+		padding-bottom: 25px;
+	}
+
+	ul {
+		display: flex;
+		align-items: center;
+
+		&>li {
+			width: 33.33%;
+			flex: 0 0 33.33%;
+
+			a {
+				width: 100%;
+			}
+		}
+	}
+	
+	
+	.prodSec1-mainCard {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+
+		.prodSec1-card {
+			width: 100%;
+			display: flex;
+			border: 1px solid #eaeaea;
+		
+			.icon {
+				height: 60px;
+				width: 60px;
+				flex: 0 0 60px;
+				background-color: rgb(242, 101, 34);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+		
+				svg {
+					display: flex;
+					width: 30px;
+					height: auto;
+				}
+			}
+		
+			.cont {
+				width: 100%;
+				display: flex;
+				align-items: center;
+				padding: 10px 20px;
+				justify-content: space-between;
+		
+				p {
+					color: #000;
+					font-size: 18px;
+					font-weight: 500;
+					line-height: 1.2;
+				}
+		
+				.downArrow {
+					color: #000;
+				}
+			}
+		}
+
+		.prodSec1-detailBox {
+			border: 1px solid #eaeaea;
+			padding: 25px;
+
+			ol {
+				display: flex;
+				flex-direction: column;
+				gap: 15px;
+
+				li {
+					a {
+						font-size: 18px;
+						font-weight: 500;
+						color: #333;
+						display: inline-flex;
+						width: fit-content;
+
+						&:hover {
+							color: rgb(242, 101, 34);
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
 
 
 

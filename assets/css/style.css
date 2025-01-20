@@ -2030,6 +2030,81 @@ footer .footer-download a {
   padding-top: 60px;
 }
 
+.productSec1-main h5 {
+  padding-bottom: 25px;
+}
+.productSec1-main ul {
+  display: flex;
+  align-items: center;
+}
+.productSec1-main ul > li {
+  width: 33.33%;
+  flex: 0 0 33.33%;
+}
+.productSec1-main ul > li a {
+  width: 100%;
+}
+.productSec1-main .prodSec1-mainCard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.productSec1-main .prodSec1-mainCard .prodSec1-card {
+  width: 100%;
+  display: flex;
+  border: 1px solid #eaeaea;
+}
+.productSec1-main .prodSec1-mainCard .prodSec1-card .icon {
+  height: 60px;
+  width: 60px;
+  flex: 0 0 60px;
+  background-color: rgb(242, 101, 34);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.productSec1-main .prodSec1-mainCard .prodSec1-card .icon svg {
+  display: flex;
+  width: 30px;
+  height: auto;
+}
+.productSec1-main .prodSec1-mainCard .prodSec1-card .cont {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+.productSec1-main .prodSec1-mainCard .prodSec1-card .cont p {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.productSec1-main .prodSec1-mainCard .prodSec1-card .cont .downArrow {
+  color: #000;
+}
+.productSec1-main .prodSec1-mainCard .prodSec1-detailBox {
+  border: 1px solid #eaeaea;
+  padding: 25px;
+}
+.productSec1-main .prodSec1-mainCard .prodSec1-detailBox ol {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.productSec1-main .prodSec1-mainCard .prodSec1-detailBox ol li a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  display: inline-flex;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.productSec1-main .prodSec1-mainCard .prodSec1-detailBox ol li a:hover {
+  color: rgb(242, 101, 34);
+}
+
 /* Responsive CSS */
 @media (max-width: 1200px) {
   img {
