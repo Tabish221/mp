@@ -2035,11 +2035,14 @@ footer .footer-download a {
 }
 .productSec1-main ul {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  row-gap: 24px;
 }
 .productSec1-main ul > li {
   width: 33.33%;
   flex: 0 0 33.33%;
+  padding: 0 15px;
 }
 .productSec1-main ul > li a {
   width: 100%;
@@ -2047,12 +2050,23 @@ footer .footer-download a {
 .productSec1-main .prodSec1-mainCard {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
+}
+.productSec1-main .prodSec1-mainCard.active .prodSec1-card .cont .downArrow {
+  transform: rotate(180deg);
 }
 .productSec1-main .prodSec1-mainCard .prodSec1-card {
   width: 100%;
   display: flex;
   border: 1px solid #eaeaea;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+.productSec1-main .prodSec1-mainCard .prodSec1-card:hover {
+  background-color: #e1e1e1;
+}
+.productSec1-main .prodSec1-mainCard .prodSec1-card.thisLink .cont .downArrow {
+  transform: rotate(275deg);
 }
 .productSec1-main .prodSec1-mainCard .prodSec1-card .icon {
   height: 60px;
@@ -2087,22 +2101,42 @@ footer .footer-download a {
 .productSec1-main .prodSec1-mainCard .prodSec1-detailBox {
   border: 1px solid #eaeaea;
   padding: 25px;
+  display: none;
 }
 .productSec1-main .prodSec1-mainCard .prodSec1-detailBox ol {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
-.productSec1-main .prodSec1-mainCard .prodSec1-detailBox ol li a {
-  font-size: 18px;
-  font-weight: 500;
-  color: #333;
+.productSec1-main .prodSec1-mainCard .prodSec1-detailBox .prodSec1Card-hd {
+  font-size: 20px;
+  font-weight: 700;
+  color: #f26522;
   display: inline-flex;
   width: -moz-fit-content;
   width: fit-content;
+  padding: 5px 0;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
 }
-.productSec1-main .prodSec1-mainCard .prodSec1-detailBox ol li a:hover {
-  color: rgb(242, 101, 34);
+.productSec1-main .prodSec1-mainCard .prodSec1-detailBox .prodSec1Card-hd:hover {
+  color: #383838;
+}
+.productSec1-main .prodSec1-mainCard .prodSec1-detailBox .prodSec1Card-link {
+  font-size: 20px;
+  font-weight: 500;
+  color: #0e0e0e;
+  display: inline-flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.productSec1-main .prodSec1-mainCard .prodSec1-detailBox .prodSec1Card-link.sub {
+  margin-left: 15px;
+}
+.productSec1-main .prodSec1-mainCard .prodSec1-detailBox .prodSec1Card-link:hover {
+  color: #6a6a6a;
 }
 
 /* Responsive CSS */

@@ -1302,11 +1302,14 @@
 
 	ul {
 		display: flex;
-		align-items: center;
+		flex-wrap: wrap;
+		margin: 0 -15px;
+		row-gap: 24px;
 
 		&>li {
 			width: 33.33%;
 			flex: 0 0 33.33%;
+			padding: 0 15px;
 
 			a {
 				width: 100%;
@@ -1318,12 +1321,36 @@
 	.prodSec1-mainCard {
 		display: flex;
 		flex-direction: column;
-		gap: 10px;
+		gap: 5px;
+
+		&.active {
+			.prodSec1-card {
+				.cont {
+					.downArrow {
+						transform: rotate(180deg);
+					}
+				}
+			}
+		}
 
 		.prodSec1-card {
 			width: 100%;
 			display: flex;
 			border: 1px solid #eaeaea;
+			transition: all 0.4s ease-in-out;
+			cursor: pointer;
+
+			&:hover {
+				background-color: #e1e1e1;
+			}
+
+			&.thisLink {
+				.cont {
+					.downArrow {
+						transform: rotate(275deg);
+					}
+				}
+			}
 		
 			.icon {
 				height: 60px;
@@ -1364,24 +1391,44 @@
 		.prodSec1-detailBox {
 			border: 1px solid #eaeaea;
 			padding: 25px;
+			display: none;
 
 			ol {
 				display: flex;
 				flex-direction: column;
 				gap: 15px;
+			}
 
-				li {
-					a {
-						font-size: 18px;
-						font-weight: 500;
-						color: #333;
-						display: inline-flex;
-						width: fit-content;
+			.prodSec1Card-hd {
+				font-size: 20px;
+				font-weight: 700;
+				color: #f26522;
+				display: inline-flex;
+				width: fit-content;
+				padding: 5px 0;
+				cursor: pointer;
+				transition: all 0.4s ease-in-out;
 
-						&:hover {
-							color: rgb(242, 101, 34);
-						}
-					}
+				&:hover {
+					color: #383838;
+				}
+			}
+
+			.prodSec1Card-link {
+				font-size: 20px;
+				font-weight: 500;
+				color: #0e0e0e;
+				display: inline-flex;
+				width: fit-content;
+				cursor: pointer;
+				transition: all 0.4s ease-in-out;
+
+				&.sub {
+					margin-left: 15px;
+				}
+
+				&:hover {
+					color: #6a6a6a;
 				}
 			}
 		}

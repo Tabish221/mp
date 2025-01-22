@@ -17,6 +17,28 @@ $(document).ready(function () {
 });
 
 
+$(document).on('click', '.prodSec1-card', function(e) {
+    if($(this).hasClass('thisLink')) {
+
+    } else {
+        var __this = $(this);
+        var parent = __this.parent();
+
+        if($(parent).hasClass('active')) {
+            $(parent).removeClass('active');
+            $(parent).find('.prodSec1-detailBox').hide();
+        } else {
+            $(parent).addClass('active');
+            $(parent).find('.prodSec1-detailBox').show();
+        }
+
+        // $(parent).toggleClass('active');
+
+        // $(parent).find('.prodSec1-detailBox').show();
+    }
+})
+
+
 
 // Slider For
 $('.slider-for').slick({
