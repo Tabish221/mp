@@ -2,7 +2,7 @@
 <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
   <div class="offcanvas-header">
     <div class="topHeader-search">
-		<input type="text" placeholder="Search Here...">
+		<input type="text" placeholder="Enter Tracking Number...">
 		<button><i class="fas fa-search"></i></button>
 	</div>
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -15,6 +15,10 @@
 			<div class="row align-items-center">
 				<div class="col-md-6">
 					<div class="topHeader-action">
+						<a href="./" class="miniLogo">
+							<img src="assets/images/logo.png" alt="">
+						</a>
+
 						<ul>
 							<li>
 								<a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
@@ -37,7 +41,7 @@
 				<div class="col-md-6">
 					<div class="topHeader-left">
 						<div class="topHeader-search">
-							<input type="text" placeholder="Enter Tracking Number...">
+							<input type="text" placeholder="Enter Tracking Number..." id="trackingId" name='trackingId'>
 							<button><i class="fas fa-search"></i></button>
 						</div>
 

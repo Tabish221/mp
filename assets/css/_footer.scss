@@ -106,9 +106,20 @@ footer {
                         align-items: center;
                         justify-content: center;
 
+
+                        svg {
+                            fill: $colorf2;
+                            width: 1em;
+                            height: auto;
+                        }
+
                         &:hover {
                             background-color: $colorf2;
                             color: $white;
+
+                            svg {
+                                fill: $white;
+                            }
                         }
 
                     }

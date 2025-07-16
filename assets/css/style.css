@@ -437,6 +437,18 @@ header {
   width: 100%;
   background: rgba(0, 0, 0, 0.7215686275);
 }
+.top-header.sticky .topHeader-action .miniLogo {
+  display: block;
+}
+.top-header .topHeader-action {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.top-header .topHeader-action .miniLogo {
+  width: 65px;
+  display: none;
+}
 .top-header .topHeader-action ul {
   display: flex;
   align-items: center;
@@ -800,9 +812,17 @@ footer .footer-left .footer-socialLink ul li a {
   align-items: center;
   justify-content: center;
 }
+footer .footer-left .footer-socialLink ul li a svg {
+  fill: #f26522;
+  width: 1em;
+  height: auto;
+}
 footer .footer-left .footer-socialLink ul li a:hover {
   background-color: #f26522;
   color: #ffffff;
+}
+footer .footer-left .footer-socialLink ul li a:hover svg {
+  fill: #ffffff;
 }
 footer .footer-right {
   display: flex;
@@ -948,6 +968,18 @@ footer .footer-download a {
   min-height: 100vh;
   padding: 300px 0 150px;
 }
+.mainBanner::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6901960784);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
 .mainBanner.innerBanner {
   min-height: 1px;
   padding: 320px 0 200px;
@@ -1011,6 +1043,11 @@ footer .footer-download a {
   color: #ffffff;
   font-size: 20px;
 }
+.mainBanner .mainBanner-socialLink ul li a svg {
+  fill: #fff;
+  width: 1em;
+  height: auto;
+}
 .mainBanner .mainBanner-socialLink ul li a:hover {
   background-color: #f26522;
   border-color: #f26522;
@@ -1021,6 +1058,8 @@ footer .footer-download a {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  position: relative;
+  z-index: 2;
 }
 .mainBanner .mainBanner-cont h1 {
   font-size: 70px;
@@ -1294,18 +1333,18 @@ footer .footer-download a {
 .homeSection4 .hsec4-cont ul {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 6px;
 }
 .homeSection4 .hsec4-cont ul li {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 5px;
 }
 .homeSection4 .hsec4-cont ul li .icon {
   border-radius: 50%;
   background-color: rgb(242, 101, 34);
-  width: 35px;
-  height: 35px;
+  width: 20px;
+  height: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1318,7 +1357,7 @@ footer .footer-download a {
      object-fit: contain;
 }
 .homeSection4 .hsec4-cont ul li span {
-  font-size: 26px;
+  font-size: 20px;
   font-family: "Agrandir";
   color: rgb(0, 0, 0);
   line-height: 1.7;

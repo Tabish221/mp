@@ -107,6 +107,8 @@ $('.index-slider').on('init', function (event, slick) {
     fade: true,
     arrows: false,
     dots: true,
+    focusOnSelect: false,
+    pauseOnFocus: false,
 }).on('beforeChange', function (event, slick, currentSlide, nextSlide) {
     var x = '';
     if (nextSlide + 1 < 10) {

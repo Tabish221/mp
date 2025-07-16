@@ -58,9 +58,25 @@ header {
 		padding: 7px 0;
 		width: 100%;
 		background: #000000b8;
+
+		.topHeader-action {
+			.miniLogo {
+				display: block;
+			}			
+		}
+
 	}
 
 	.topHeader-action {
+		display: flex;
+		align-items: center;
+		gap: 25px;
+
+		.miniLogo {
+			width: 65px;
+			display: none;
+		}
+
 		ul {
 			display: flex;
 			align-items: center;

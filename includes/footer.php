@@ -11,7 +11,7 @@
 
 					<div class="footer-btn">
 						<a href="#">
-							M&P Private Limited
+							M&P Express Logistics (pvt) Ltd. 
 							<div class="icon">
 								<span><i class="far fa-arrow-right"></i></span>
 							</div>
@@ -22,7 +22,7 @@
 						<ul>
 							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" width="24px" height="24px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve"><path d="M14.095479,10.316482L22.286354,1h-1.940718l-7.115352,8.087682L7.551414,1H1l8.589488,12.231093L1,23h1.940717  l7.509372-8.542861L16.448587,23H23L14.095479,10.316482z M11.436522,13.338465l-0.871624-1.218704l-6.924311-9.68815h2.981339  l5.58978,7.82155l0.867949,1.218704l7.26506,10.166271h-2.981339L11.436522,13.338465z"/></svg></a></li>
 							<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
 						</ul>
 					</div>
@@ -43,13 +43,13 @@
 								<h6>Our Services</h6>
 
 								<ul>
-									<li><a href="#">Overnight</a></li>
-									<li><a href="#">Same Day</a></li>
-									<li><a href="#">Second Day</a></li>
-									<li><a href="#">My Flyer</a></li>
-									<li><a href="#">My Box</a></li>
-									<li><a href="#">Value Added Service</a></li>
-									<li><a href="#">International</a></li>
+									<li><a href="same-day-delivery.php">Overnight</a></li>
+									<li><a href="same-day-delivery.php">Same Day</a></li>
+									<li><a href="same-day-delivery.php">Second Day</a></li>
+									<li><a href="same-day-delivery.php">My Flyer</a></li>
+									<li><a href="same-day-delivery.php">My Box</a></li>
+									<li><a href="same-day-delivery.php">Value Added Service</a></li>
+									<li><a href="same-day-delivery.php">International</a></li>
 								</ul>
 							</div>
 
@@ -57,11 +57,11 @@
 								<h6>Menu</h6>
 
 								<ul>
-									<li><a href="#">About Us</a></li>
-									<li><a href="#">Courier</a></li>
-									<li><a href="#">Logistics</a></li>
+									<li><a href="about-us.php">About Us</a></li>
+									<li><a href="same-day-delivery.php">Courier</a></li>
+									<li><a href="same-day-delivery.php">Logistics</a></li>
 									<li><a href="#">COD Portal</a></li>
-									<li><a href="#">Business Solution</a></li>
+									<li><a href="same-day-delivery.php">Business Solution</a></li>
 								</ul>
 							</div>
 

@@ -24,7 +24,7 @@
                <ul>
                   <li class="wow fadeInLeft"  data-wow-delay="0.2s"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                   <li class="wow fadeInLeft"  data-wow-delay="0.4s"><a href="#"><i class="fab fa-instagram"></i></a></li>
-                  <li class="wow fadeInLeft"  data-wow-delay="0.6s"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li class="wow fadeInLeft"  data-wow-delay="0.6s"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" width="24px" height="24px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve"><path d="M14.095479,10.316482L22.286354,1h-1.940718l-7.115352,8.087682L7.551414,1H1l8.589488,12.231093L1,23h1.940717  l7.509372-8.542861L16.448587,23H23L14.095479,10.316482z M11.436522,13.338465l-0.871624-1.218704l-6.924311-9.68815h2.981339  l5.58978,7.82155l0.867949,1.218704l7.26506,10.166271h-2.981339L11.436522,13.338465z"/></svg></a></li>
                   <li class="wow fadeInLeft"  data-wow-delay="0.8s"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                   <li class="wow fadeInLeft"  data-wow-delay="1s"><a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="fab fa-search"></i></a></li>
                </ul>
@@ -39,7 +39,7 @@
       </div>
 
       <div>
-         <section class="mainBanner" style="background-image: url(assets/images/banner/bg-banner.jpg);">
+         <section class="mainBanner" style="background-image: url(assets/images/banner/bg-banner1.jpg);">
             <div class="dropBtn">
                <a href="#">
                   <div class="icon"><img src="assets/images/icon/down-arrow-long.png" alt="Down Arrow Icon"></div>
@@ -50,7 +50,7 @@
                <ul>
                   <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                   <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" width="24px" height="24px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve"><path d="M14.095479,10.316482L22.286354,1h-1.940718l-7.115352,8.087682L7.551414,1H1l8.589488,12.231093L1,23h1.940717  l7.509372-8.542861L16.448587,23H23L14.095479,10.316482z M11.436522,13.338465l-0.871624-1.218704l-6.924311-9.68815h2.981339  l5.58978,7.82155l0.867949,1.218704l7.26506,10.166271h-2.981339L11.436522,13.338465z"/></svg></a></li>
                   <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                   <li class="wow fadeInLeft"  data-wow-delay="1s"><a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="fab fa-search"></i></a></li>
                </ul>
@@ -58,14 +58,14 @@
             <div class="container">
                <div class="mainBanner-cont w-75 m-auto">
                   <h1 class="wow fadeInDown"  data-wow-delay="0.2s">Express Logistic  <span><em>Solutions</em></span></h1>
-                  <p class="wow fadeInDown"  data-wow-delay="0.4s">M&P helps you deliver on your commitments by <br> ensuring we fulfill ours.</p>
+                  <p class="wow fadeInDown"  data-wow-delay="0.4s">Empowering businesses with seamless Cash-On-delivery <br> service in Pakistan.</p>
                </div>
             </div>
          </section>
       </div>
 
       <div>
-         <section class="mainBanner" style="background-image: url(assets/images/banner/bg-banner.jpg);">
+         <section class="mainBanner" style="background-image: url(assets/images/banner/bg-banner2.jpg);">
             <div class="dropBtn">
                <a href="#">
                   <div class="icon"><img src="assets/images/icon/down-arrow-long.png" alt="Down Arrow Icon"></div>
@@ -76,7 +76,7 @@
                <ul>
                   <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                   <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" width="24px" height="24px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve"><path d="M14.095479,10.316482L22.286354,1h-1.940718l-7.115352,8.087682L7.551414,1H1l8.589488,12.231093L1,23h1.940717  l7.509372-8.542861L16.448587,23H23L14.095479,10.316482z M11.436522,13.338465l-0.871624-1.218704l-6.924311-9.68815h2.981339  l5.58978,7.82155l0.867949,1.218704l7.26506,10.166271h-2.981339L11.436522,13.338465z"/></svg></a></li>
                   <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                   <li class="wow fadeInLeft"  data-wow-delay="1s"><a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="fab fa-search"></i></a></li>
                </ul>
@@ -102,7 +102,7 @@
             <div class="container">
                <div class="mainBanner-cont w-75 m-auto">
                   <h1 class="wow fadeInDown"  data-wow-delay="0.2s">Express Logistic  <span><em>Solutions</em></span></h1>
-                  <p class="wow fadeInDown"  data-wow-delay="0.4s">M&P helps you deliver on your commitments by <br> ensuring we fulfill ours.</p>
+                  <p class="wow fadeInDown"  data-wow-delay="0.4s">Experience the best courier service <br> tailored to your needs!</p>
                </div>
             </div>
          </section>
@@ -405,7 +405,7 @@
 
                            <li>
                               <div class="mn-groupBtn mn-btn">
-                                 <a href="#">Tariff Calculator</a>
+                                 <!-- <a href="#">Tariff Calculator</a> -->
                                  <a href="#" class="greyBtn">Get A Quote</a>
                               </div>
                            </li>
